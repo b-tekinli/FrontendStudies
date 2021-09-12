@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nth-Child Selector</title>
+    <style>
+        p {
+            font-size: 1.5em;
+        }
+
+        ul {
+            font-size: 1.5em;
+            list-style-type: none;
+        }
+
+        /* n = 0 b = 0, 0, 2, 4, 6, 8, 10*/
+        ul li:nth-child(2n) {
+            color: red;
+        }
+
+        ul li:nth-child(2n + 1) {
+            color: yellow;
+        }
+
+        ul li:nth-child(n + 4) {
+            background: black;
+        }
+
+        /* p:first-child {
+            background: yellow;
+        }
+
+        p:last-child {
+            background: blue;
+        }
+
+        p:nth-child(1) {
+            color: red;
+        }
+
+        p:nth-child(3) {
+            color: blue;
+        } */
+
+        /* p:nth-child(even) {
+            color: red;
+        }
+
+        p:nth-child(odd) {
+            color:blue;
+        } */
+
+        /* an + b  n = 0, b = 0*/
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+    </ul>
+    <!-- <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    </p>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    </p>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    </p>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    </p>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    </p> -->
+</body>
+
+</html>
