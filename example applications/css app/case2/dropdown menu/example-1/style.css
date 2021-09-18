@@ -1,0 +1,71 @@
+body {
+  background: #dedede;
+  font-family: "arial";
+  margin: 0px;
+  padding: 0px;
+}
+
+.dropdown-menu {
+  margin: 0px auto;
+}
+
+nav {
+  height: 68px;
+  background: #4da4fa;
+}
+
+.logo {
+  padding: 5px 0 0 80px;
+  width: 150px;
+  height: auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+nav ul li {
+  background: #4da4fa;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0 15px;
+  color: white;
+  text-decoration: none;
+  line-height: 60px;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  background: #4da4fa;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 60px;
+  display: none;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul ul li {
+  width: 150px;
+  display: list-item;
+  position: relative;
+}
+
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 150px;
+}

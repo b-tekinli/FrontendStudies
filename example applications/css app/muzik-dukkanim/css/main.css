@@ -1,0 +1,42 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 20px;
+}
+
+h2 {
+    color: rgb(175, 100, 175);
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h4 {
+    color: #dbc02b;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+ul li {
+    text-align: center;
+}

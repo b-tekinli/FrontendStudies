@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+
+    <style>
+        .box {
+            width: 120px;
+            height: 120px;
+        }
+
+        .mbox {
+            width: 30px;
+            height: 30px;
+            background: yellow;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+
+        #first {
+            background: red;
+            width: 100%;
+
+            position: sticky;
+            top: 50px;
+        }
+
+        #second {
+            background: blue;
+            position: relative;
+            /*  position: absolute;
+            position: relative;
+            top: 50px;
+            left: 50px;  */
+        }
+
+        #third {
+            background: green;
+            position: fixed;
+            top: 0;
+            /*  bottom: 0; */
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officiis quasi voluptatibus dignissimos
+        itaque dicta facilis ad aliquid totam? Nesciunt repellat corrupti necessitatibus voluptatibus unde sequi ullam
+        rem hic ea!
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officiis quasi voluptatibus dignissimos
+        itaque dicta facilis ad aliquid totam? Nesciunt repellat corrupti necessitatibus voluptatibus unde sequi ullam
+        rem hic ea!
+    </p>
+
+    <div class="box" id="first">box 1</div>
+
+    <div class="box" id="second">
+        <div class="mbox"></div>
+    </div>
+
+    <div class="box" id="third">box 3</div>
+
+    <div style="height: 2000px;"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: rgb(175, 100, 175);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.line {
+    margin-bottom: 20px;
+}
+
+img {
+    position: relative;
+    left: 500px;
+}
+
+p {
+    text-align: center;
+}

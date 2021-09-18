@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model</title>
+    <style>
+    
+        .box{
+            width:150px;
+            height:150px;
+        }
+        
+        #red{
+            background-color: red;
+        }
+    
+        #green{
+            background-color: green;
+            padding:20px;
+            border:20px solid yellow;
+            box-sizing: border-box;
+        }
+        
+        #blue{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+   
+   <div id="red" class="box"></div>
+    <div id="green" class="box">Hello</div>
+    <div id="blue" class="box"></div>
+    
+</body>
+</html>
