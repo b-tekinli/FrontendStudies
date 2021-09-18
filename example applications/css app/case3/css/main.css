@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header .container {
+  display: block;
+}
+
+header .container img {
+  position: relative;
+  width: 100%;
+}
+
+header .container h1 {
+  position: absolute;
+  font-size: 5rem;
+  top: 220px;
+  left: 500px;
+}
+
+header .container h3 {
+  position: absolute;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  top: 330px;
+  left: 560px;
+}
+
+header .container .button {
+  position: absolute;
+  display: inline-block;
+  border: 1px solid transparent;
+  background-color: #1d809f;
+  width: 176px;
+  height: 66px;
+  top: 400px;
+  left: 700px;
+  border-radius: 0.25rem;
+}
+
+header .container .button:hover {
+  background-color: #2b6e87;
+  cursor: pointer;
+}
+
+header .container .button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header .container .button div {
+  padding: 1.3rem 2.1rem;
+}
