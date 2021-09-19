@@ -1,0 +1,53 @@
+section .container-3 {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+section .container-3 img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background: cover;
+}
+
+section .container-3 .container-item {
+  display: flex;
+  justify-content: center;
+}
+
+section .container-3 .h2 {
+  font-size: 2rem;
+  position: absolute;
+  font-weight: 700;
+  display: block;
+  max-width: 30rem;
+  text-align: center;
+  margin-top: 16rem;
+}
+
+section .container-3 .button {
+  position: relative;
+  display: inline-block;
+  border: 1px solid transparent;
+  background-color: #1d809f;
+  width: 176px;
+  height: 66px;
+  border-radius: 0.25rem;
+  top: 425px;
+}
+
+section .container-3 .button:hover {
+  background-color: #2b6e87;
+  cursor: pointer;
+}
+
+section .container-3 .button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section .container-3 .button .text {
+  text-align: center;
+  padding: 1.5rem;
+}
