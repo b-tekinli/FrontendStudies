@@ -9,7 +9,7 @@ header .container {
   display: block;
 }
 
-header .container img {
+header .img-1 {
   position: relative;
   width: 100%;
   height: auto;
