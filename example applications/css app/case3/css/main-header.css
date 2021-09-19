@@ -12,6 +12,8 @@ header .container {
 header .container img {
   position: relative;
   width: 100%;
+  height: auto;
+  background: cover;
 }
 
 header .container h1 {
