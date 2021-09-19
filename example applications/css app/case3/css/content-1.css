@@ -1,0 +1,43 @@
+section .container {
+  width: 100%;
+  height: 490px;
+  text-align: center;
+  padding-top: 12rem;
+  padding-bottom: 6rem;
+}
+
+section .container .h2 {
+  font-size: 1.2rem;
+}
+
+section .container p {
+  font-size: 1.1em;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+section .container a {
+  color: #33809f;
+}
+
+section .container .button {
+  border: 1px solid transparent;
+  background-color: #212529;
+  width: 176px;
+  height: 66px;
+  margin: 0 auto;
+  border-radius: 0.25rem;
+}
+
+section .container .button:hover {
+  cursor: pointer;
+}
+
+section .container .button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section .container .button .text {
+  padding: 1.4rem 2rem;
+}

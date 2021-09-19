@@ -15,8 +15,8 @@ header .container img {
 }
 
 header .container h1 {
-  position: absolute;
   font-size: 5rem;
+  position: absolute;
   top: 220px;
   left: 500px;
 }
@@ -51,6 +51,6 @@ header .container .button a {
   text-decoration: none;
 }
 
-header .container .button div {
-  padding: 1.3rem 2.1rem;
+header .container .button .text {
+  padding: 1.5rem 2.2rem;
 }
