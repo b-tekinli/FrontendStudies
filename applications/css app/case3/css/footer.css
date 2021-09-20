@@ -1,0 +1,40 @@
+footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+footer .container-6 ul {
+  list-style: none;
+  margin-bottom: 3rem;
+}
+
+footer .container-6 ul li {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+footer .container-6 ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1d809f;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  font-size: 1.5rem;
+  line-height: 4.3rem;
+  box-shadow: 0 3px 3px 0;
+}
+
+footer .container-6 ul li a:hover {
+  background-color: #155d74;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+
+footer .container-6 p {
+  margin-top: 48px;
+  font-size: 0.85rem;
+  color: #6c757d;
+}
