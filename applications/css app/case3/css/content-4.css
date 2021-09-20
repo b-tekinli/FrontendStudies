@@ -1,13 +1,83 @@
+.content-4 {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
 section .container-4 {
   width: 100%;
-  height: 1180px;
+  height: 1400px;
   padding-top: 14rem;
   position: relative;
 }
 
 section .container-4 .text {
   position: absolute;
-  font-size: 1rem;
-
+  text-align: center;
+  margin: 6.5rem auto;
+  width: 100%;
 }
 
+section .container-4 .text h3 {
+  font-size: 0.92rem;
+}
+
+section .container-4 .text h2 {
+  font-size: 2.85rem;
+}
+
+section .container-4 .portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding-top: 14rem;
+  justify-content: center;
+}
+
+section .container-4 .portfolio-items .item {
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  width: 612px;
+  height: 408px;
+  position: relative;
+}
+
+section .container-4 .portfolio-items .item a {
+  color: #1d809f;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+section .container-4 .portfolio-items .item a img {
+  max-width: 100%;
+  height: auto;
+}
+
+section .container-4 .portfolio-items .item a .caption {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+section .container-4 .portfolio-items .item a .caption .cap-content {
+  color: #fff;
+  margin: auto 2rem 3rem 3rem;
+  display: block;
+  transition: opacity 0.25s;
+}
+
+section .container-4 .portfolio-items .item a .caption .cap-content .h2 {
+  line-height: 1.2;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+section .container-4 .portfolio-items .item a .caption .cap-content p {
+  display: block;
+  margin: 1.5em auto;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
