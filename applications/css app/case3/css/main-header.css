@@ -13,7 +13,7 @@ header .img-1 {
   position: relative;
   width: 100%;
   height: auto;
-  background: cover;
+  object-fit: fill;
 }
 
 header .container h1 {

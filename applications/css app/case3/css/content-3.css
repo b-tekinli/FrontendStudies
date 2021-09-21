@@ -8,9 +8,7 @@ section .container-3 {
 
 section .img-3 {
   position: absolute;
-  width: 100%;
-  height: auto;
-  background: cover;
+  object-fit: fill;
 }
 
 section .container-3 .container-item {
