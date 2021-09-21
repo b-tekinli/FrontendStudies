@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #212529;
+  height: 70px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+nav .container a img {
+  width: 150px;
+  margin: 25px 100px;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  width: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+}
+
+nav .container .navbar ul {
+  display: flex;
+  align-items: center;
+  transform: translate(95%, -5%);
+}
+
+nav .container ul li {
+  margin-right: 40px;
+}
+
+nav .container ul li a {
+  font-size: 0.95rem;
+  color: #fff;
+}
+
+nav .container ul li a:hover {
+  color: #ffc800;
+  transition: color 0.15s ease-in-out;
+}
+
+header {
+  display: block;
+}
+
+header .container img {
+  width: 100%;
+  position: absolute;
+}
+
+header .container .text {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 7%);
+  text-align: center;
+}
+
+header .container .text .h3 {
+  font-size: 2.25rem;
+  line-height: 5rem;
+  margin-bottom: 2rem;
+}
+
+header .container .text .h1 {
+  font-size: 3.7rem;
+  text-transform: uppercase;
+  overflow: hidden;
+  font-weight: 700;
+  line-height: 4.5rem;
+  margin-bottom: 4rem;
+}
+
+header .container .btn {
+  padding: 1.5rem 2.5rem;
+  background-color: #ffc800;
+  border: 1px solid #fac811;
+  border-radius: 0.25rem;
+  width: 224px;
+  height: 68px;
+  margin: 0 auto;
+}
+
+header .container .btn:hover {
+  background-color: #d9aa00;
+  border-color: #cca000;
+  cursor: pointer;
+}
+
+header .container .btn a {
+  color: #fff;
+}

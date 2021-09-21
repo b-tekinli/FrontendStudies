@@ -1,0 +1,26 @@
+section .container .services {
+  height: 633px;
+  display: block;
+  padding: 6rem;
+}
+
+section .container .services .text {
+  text-align: center;
+}
+
+section .container .services .text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+section .container .services .text h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+section .container .services .row {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
