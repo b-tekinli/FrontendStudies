@@ -1,14 +1,64 @@
-#potfolio {
-  height: 1203px;
+#portfolio {
+  height: 1250px;
   background-color: #f8f9fa;
 }
 
+section .container .portfolio {
+  padding: 6rem;
+}
 
+section .container .portfolio .text {
+  text-align: center;
+}
 
+section .container .portfolio .text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
 
+section .container .portfolio .text h3 {
+  color: grey;
+  font-size: 1rem;
+  font-weight: 400;
+}
 
+section .container .portfolio .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
+section .container .portfolio .col {
+  flex: 0 0 auto;
+  padding: 2rem 0.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
 
+section .container .portfolio .col .item {
+  width: 415px;
+  height: 420px;
+}
 
+section .container .portfolio .col .item img {
+  width: 100%;
+}
 
+section .container .portfolio .col .item .caption {
+  background-color: #fff;
+  padding: 1.5rem;
+  margin-top: 0;
+  text-align: center;
+}
 
+section .container .portfolio .col .item .caption .caption-head {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 2.5rem;
+}
+
+section .container .portfolio .col .item .caption .caption-subheading {
+  font-style: italic;
+  color: grey;
+}
