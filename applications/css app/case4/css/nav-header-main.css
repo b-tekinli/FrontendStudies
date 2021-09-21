@@ -13,9 +13,8 @@ a {
   text-decoration: none;
 }
 
-nav {
-  background-color: #212529;
-  height: 70px;
+section {
+  display: block;
 }
 
 .container {
@@ -33,6 +32,8 @@ nav .container a img {
 }
 
 .navbar {
+  background-color: #212529;
+  height: 65px;
   display: flex;
   position: fixed;
   top: 0;
@@ -77,7 +78,7 @@ header .container .text {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
