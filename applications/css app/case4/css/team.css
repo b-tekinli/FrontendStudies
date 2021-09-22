@@ -1,0 +1,89 @@
+#team {
+  height: 817px;
+  background-color: #f8f9fa;
+}
+
+section .container .text {
+  text-align: center;
+  padding-top: 6rem;
+}
+
+section .container .text h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+section .container .text h3 {
+  font-size: 0.9rem;
+  color: grey;
+}
+
+section .container .row {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+}
+
+section .container .row .col {
+  width: 33%;
+  flex: 0 0 auto;
+}
+
+section .container .row .col .member {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+section .container .row .col .member img {
+  border-radius: 50%;
+  border: 0.5rem solid #dfe0e1;
+  width: 14rem;
+  height: 14rem;
+}
+
+section .container .row .col .member h4 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+section .container .row .col .member p {
+  color: #6c757d;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+section .container .row .col .member a {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: inline-flex;
+  border-radius: 50%;
+  background-color: #000;
+  margin-right: 1rem;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+section .container .row .col .member a:hover {
+  background-color: rgb(63, 63, 63);
+  transition: all 0.35s ease;
+}
+
+section .container .paragraph {
+  margin-top: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  flex: 0 0 auto;
+}
+
+section .container .paragraph p {
+  margin: 0 auto;
+  color: #6c757d;
+  line-height: 1.75;
+  font-size: 0.85rem;
+  width: 66%;
+}

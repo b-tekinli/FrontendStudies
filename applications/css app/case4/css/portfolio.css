@@ -1,10 +1,6 @@
 #portfolio {
-  height: 1220px;
+  height: 1250px;
   background-color: #f8f9fa;
-}
-
-section .container .portfolio {
-  padding: 6rem;
 }
 
 section .container .portfolio .text {
@@ -14,7 +10,6 @@ section .container .portfolio .text {
 
 section .container .portfolio .text h2 {
   font-size: 2.5rem;
-  margin-bottom: 1rem;
 }
 
 section .container .portfolio .text h3 {
