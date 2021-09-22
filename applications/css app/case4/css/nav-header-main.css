@@ -17,6 +17,14 @@ section {
   display: block;
 }
 
+div {
+  display: block;
+}
+
+*::before {
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 100%;
   margin: 0 auto;
