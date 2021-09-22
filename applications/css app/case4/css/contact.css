@@ -1,4 +1,78 @@
 #contact {
-    height: 700px;
-    background-image: url('images/map-image.png');
+  height: 700px;
+  background-color: #212529;
+  background-image: url(../images/map-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 9rem;
+}
+
+section .container .contact .text h2 {
+  color: #fff;
+}
+
+section .container .contact .text h3 {
+  font-size: 0.85rem;
+}
+
+#form {
+  display: block;
+  margin-top: 0;
+}
+
+form .row {
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: stretch 0;
+  flex-wrap: wrap;
+}
+
+form .row .col {
+  display: block;
+  flex: 0 0 auto;
+  width: 50%;
+  margin: 20px auto;
+}
+
+form .row .col .form-group {
+  margin-bottom: 1.5rem;
+  border-radius: 0.25rem;
+  margin: 20 auto;
+}
+
+.form-control {
+  padding: 1.25rem;
+  width: 550px;
+  border: 1px solid #dc3545;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border: 1px solid #ced4da;
+}
+
+.feedback {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #dc3545;
+}
+
+section .container .contact .form .row .btn {
+  text-align: center;
+  background-color: #ffc800;
+  border: 1px solid #ffc800;
+}
+
+section .container .contact .form .row .btn button {
+  pointer-events: none;
+  opacity: 0.65;
+  color: #fff;
+  user-select: none;
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 1.25rem 2.5rem;
+  text-align: center;
+  line-height: 1.5;
+  border-radius: 0.25rem;
 }

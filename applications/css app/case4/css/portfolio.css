@@ -1,6 +1,7 @@
 #portfolio {
   height: 1250px;
   background-color: #f8f9fa;
+  padding: 0 7rem;
 }
 
 section .container .portfolio .text {
@@ -31,7 +32,7 @@ section .container .portfolio .col {
 }
 
 section .container .portfolio .col .item {
-  width: 415px;
+  width: 420px;
   height: 420px;
 }
 
