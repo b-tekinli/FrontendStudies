@@ -1,5 +1,5 @@
 #portfolio {
-  height: 1250px;
+  height: 1270px;
   background-color: #f8f9fa;
 }
 
@@ -9,6 +9,7 @@ section .container .portfolio {
 
 section .container .portfolio .text {
   text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 section .container .portfolio .text h2 {
@@ -30,8 +31,7 @@ section .container .portfolio .row {
 
 section .container .portfolio .col {
   flex: 0 0 auto;
-  padding: 2rem 0.5rem;
-  margin-bottom: 2rem;
+  padding: 1rem 0.5rem;
   text-align: center;
 }
 
@@ -58,7 +58,7 @@ section .container .portfolio .col .item .caption .caption-head {
   line-height: 2.5rem;
 }
 
-section .container .portfolio .col .item .caption .caption-subheading {
+section .container .portfolio .col .item .caption .caption-subhead {
   font-style: italic;
   color: grey;
 }
