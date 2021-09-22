@@ -43,7 +43,7 @@ section .container .services .row .col {
   position: relative;
   font-size: 4em;
   border-radius: 50%;
-  padding: 02px;
+  padding: 25px;
 }
 
 section .container .services .row .col h4 {

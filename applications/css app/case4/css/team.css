@@ -87,3 +87,27 @@ section .container .paragraph p {
   font-size: 0.85rem;
   width: 66%;
 }
+
+.logo {
+  padding: 3rem 0;
+  height: 180px;
+}
+
+.logo .container .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo .container .row .col {
+  margin: 1rem 0;
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.logo .container .row .col a img {
+  height: 2.75rem;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
