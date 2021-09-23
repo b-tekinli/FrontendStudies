@@ -26,31 +26,31 @@ section .row .col {
   flex: 0 0 auto;
 }
 
-section .row .col .member {
+section .member {
   text-align: center;
   margin-bottom: 3rem;
 }
 
-section .row .col .member img {
+section .member img {
   border-radius: 50%;
   border: 0.5rem solid #dfe0e1;
   width: 14rem;
   height: 14rem;
 }
 
-section .row .col .member h4 {
+section .member h4 {
   font-size: 1.5rem;
   margin-top: 1.5rem;
 }
 
-section .row .col .member p {
+section .member p {
   color: #6c757d;
   line-height: 1.75;
   margin-bottom: 1rem;
   font-size: 0.9rem;
 }
 
-section .row .col .member a {
+section .member a {
   height: 2.5rem;
   width: 2.5rem;
   display: inline-flex;
@@ -63,7 +63,7 @@ section .row .col .member a {
   padding: 0;
 }
 
-section .row .col .member a:hover {
+section .member a:hover {
   background-color: rgb(63, 63, 63);
   transition: all 0.35s ease;
 }
@@ -106,8 +106,4 @@ section .paragraph p {
   max-width: 100%;
   display: block;
   margin: 0 auto;
-}
-
-.col-half {
-  max-width: 50%;
 }

@@ -1,5 +1,4 @@
 #contact {
-  height: 700px;
   background-color: #212529;
   background-image: url(../images/map-image.png);
   background-position: center;
@@ -34,7 +33,7 @@ form .row .col {
   margin: 20px auto;
 }
 
-form .row .col .form-group {
+form .form-group {
   margin-bottom: 1.5rem;
   border-radius: 0.25rem;
   margin: 20 auto;
@@ -58,13 +57,14 @@ form .row .col .form-group {
   color: #dc3545;
 }
 
-section .contact .form .row .btn {
+section .btn {
   text-align: center;
+  width: 231px;
   background-color: #ffc800;
   border: 1px solid #ffc800;
 }
 
-section .contact .form .row .btn button {
+section .btn button {
   pointer-events: none;
   opacity: 0.65;
   color: #fff;

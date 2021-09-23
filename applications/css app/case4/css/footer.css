@@ -4,7 +4,7 @@
   padding: 1.5rem 13.5rem;
 }
 
-footer .container .row {
+footer .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -12,13 +12,13 @@ footer .container .row {
   max-width: 100%;
 }
 
-footer .container .row .col {
+footer .row .col {
   text-align: left;
   flex: 0 0 auto;
   width: 33%;
 }
 
-footer .container .row .col .social {
+footer .row .col .social {
   color: #fff;
   background-color: #212529;
   border-color: #212529;
@@ -33,13 +33,13 @@ footer .container .row .col .social {
   margin-left: 30px;
 }
 
-footer .container .row .col a {
+footer .row .col a {
   color: #212529;
   margin-left: 20px;
   text-align: right;
 }
 
-footer .container .row .col a:hover {
+footer .row .col a:hover {
   background-color: rgb(63, 63, 63);
   transition: all 0.35s ease;
 }

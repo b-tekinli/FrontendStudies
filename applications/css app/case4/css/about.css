@@ -102,3 +102,8 @@ section .body-text p {
   margin-right: 575px;
   padding: 40px;
 }
+
+.col-half {
+  max-width: 50%;
+}
+
