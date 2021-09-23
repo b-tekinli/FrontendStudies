@@ -1,32 +1,31 @@
 #about {
-  height: 1700px;
-  padding: 5rem;
+  padding: 0 5rem;
   position: relative;
 }
 
-section .container .about .text {
+section .text {
   text-align: center;
 }
 
-section .container .about .text h2 {
+section .text h2 {
   font-size: 2.5rem;
   line-height: 1.5;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
 
-section .container .about .text h3 {
+section .text h3 {
   font-size: 1rem;
   color: grey;
   font-weight: 200;
   margin-bottom: 3.5rem;
 }
 
-section .container .about .time {
+section .row .time {
   position: relative;
 }
 
-section .container .about .timeline ul {
+section .row .timeline ul {
   margin-bottom: 1rem;
 }
 
@@ -35,70 +34,65 @@ section .container .about .timeline ul {
   top: 0;
   bottom: 0;
   width: 2px;
-  height: 1250px;
+  height: 100%;
   content: "";
   background-color: #e9ecef;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.timeline > li:before {
-  content: " ";
-  display: table;
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.timeline > li:last-child {
-  margin-bottom: 0;
-  color: #fff;
+.justify-end {
+  justify-content: flex-end;
 }
 
-.timeline-li {
-  min-height: 170px;
-  margin-bottom: 100px;
-  display: list-item;
+h2 {
+  display: flex;
+  justify-content: flex-start;
 }
 
-.timeline-li h3 {
-  padding: 41px;
-}
-
-section .container .about .timeline .timeline-image {
-  position: absolute;
+.timeline .timeline-image {
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #ffc800;
   width: 170px;
   height: 170px;
-  margin-left: -85px;
   text-align: center;
 }
 
-section .container .about .timeline .timeline-image img {
+section .wrapper .timeline .timeline-image img {
   border-radius: 50%;
   height: auto;
   max-width: 100%;
 }
 
-section .container .about .timeline .timeline-text {
-  position: relative;
-  padding: 0 20px 20px 100px;
-  width: 41%;
-  text-align: right;
-}
-
-section .container .about .timeline .timeline-text .head-text {
-  text-align: center;
-}
-
-section .container .about .timeline .timeline-text .head-text h4 {
+section .wrapper .timeline .timeline-text .head-text h4 {
   font-size: 1.3rem;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 0.5rem;
-  text-align: right;
 }
 
-section .container .about .timeline .timeline-text .body-text p {
+section .wrapper .timeline .timeline-text .body-text p {
   line-height: 1.75;
-  margin-bottom: 0;
   color: #6c757d;
-  text-align: left;
+}
+
+.timeline-text {
+  flex: 1 0 0;
+}
+
+.image-end {
+  margin-right: -85px;
+  position: relative;
+  z-index: 2;
+}
+
+.image-start {
+  margin-left: -85px;
+  position: relative;
+  z-index: 2;
 }

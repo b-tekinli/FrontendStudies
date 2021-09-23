@@ -7,11 +7,11 @@
   padding: 0 9rem;
 }
 
-section .container .contact .text h2 {
+section .contact .text h2 {
   color: #fff;
 }
 
-section .container .contact .text h3 {
+section .contact .text h3 {
   font-size: 0.85rem;
 }
 
@@ -58,13 +58,13 @@ form .row .col .form-group {
   color: #dc3545;
 }
 
-section .container .contact .form .row .btn {
+section .contact .form .row .btn {
   text-align: center;
   background-color: #ffc800;
   border: 1px solid #ffc800;
 }
 
-section .container .contact .form .row .btn button {
+section .contact .form .row .btn button {
   pointer-events: none;
   opacity: 0.65;
   color: #fff;

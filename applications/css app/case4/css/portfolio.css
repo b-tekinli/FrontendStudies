@@ -1,60 +1,58 @@
 #portfolio {
-  height: 1250px;
   background-color: #f8f9fa;
   padding: 0 7rem;
 }
 
-section .container .portfolio .text {
+section .portfolio .text {
   text-align: center;
   margin-bottom: 1.5rem;
 }
 
-section .container .portfolio .text h2 {
+section .portfolio .text h2 {
   font-size: 2.5rem;
 }
 
-section .container .portfolio .text h3 {
+section .portfolio .text h3 {
   color: grey;
   font-size: 1rem;
   font-weight: 400;
 }
 
-section .container .portfolio .row {
+section .portfolio .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-section .container .portfolio .col {
+section .portfolio .col {
   flex: 0 0 auto;
   padding: 1rem 0.5rem;
   text-align: center;
 }
 
-section .container .portfolio .col .item {
+section .portfolio .col .item {
   width: 420px;
-  height: 420px;
 }
 
-section .container .portfolio .col .item img {
+section .portfolio .col .item img {
   width: 100%;
 }
 
-section .container .portfolio .col .item .caption {
+section .portfolio .col .item .caption {
   background-color: #fff;
   padding: 1.5rem;
   margin-top: 0;
   text-align: center;
 }
 
-section .container .portfolio .col .item .caption .caption-head {
+section .portfolio .col .item .caption .caption-head {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 0;
   line-height: 2.5rem;
 }
 
-section .container .portfolio .col .item .caption .caption-subhead {
+section .portfolio .col .item .caption .caption-subhead {
   font-style: italic;
   color: grey;
 }

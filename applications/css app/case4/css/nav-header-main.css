@@ -1,42 +1,20 @@
-* {
+*, ::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat";
-}
-
-ul {
   list-style: none;
-}
-
-a {
   text-decoration: none;
 }
 
-section {
-  display: block;
-}
-
-div {
-  display: block;
-}
-
-*::before {
-  box-sizing: border-box;
-}
-
 .container {
-  max-width: 100%;
+  max-width: 1320px;
   margin: 0 auto;
 }
 
-#main {
-  height: 744px;
-}
-
-nav .container a img {
+nav a img {
   width: 150px;
-  margin: 25px 100px;
+  margin: 25px 120px;
 }
 
 .navbar {
@@ -53,22 +31,23 @@ nav .container a img {
   z-index: 99999;
 }
 
-nav .container .navbar ul {
+nav .navbar ul {
   display: flex;
   align-items: center;
-  transform: translate(95%, -5%);
+  margin: 0 auto;
+  width: 10%;
 }
 
-nav .container ul li {
+nav ul li {
   margin-right: 40px;
 }
 
-nav .container ul li a {
+nav ul li a {
   font-size: 0.95rem;
   color: #fff;
 }
 
-nav .container ul li a:hover {
+nav ul li a:hover {
   color: #ffc800;
   transition: color 0.15s ease-in-out;
 }
@@ -77,11 +56,12 @@ header {
   display: block;
 }
 
-header .container img {
-  width: 100%;
+header img {
+  max-width: 100%;
+  object-fit: fill;
 }
 
-header .container .text {
+header .text {
   color: #fff;
   position: absolute;
   top: 50%;
@@ -90,13 +70,13 @@ header .container .text {
   text-align: center;
 }
 
-header .container .text .h3 {
+header .text .h3 {
   font-size: 2.25rem;
   line-height: 5rem;
   margin-bottom: 2rem;
 }
 
-header .container .text .h1 {
+header .text .h1 {
   font-size: 3.7rem;
   text-transform: uppercase;
   overflow: hidden;
@@ -105,7 +85,7 @@ header .container .text .h1 {
   margin-bottom: 4rem;
 }
 
-header .container .btn {
+header .btn {
   padding: 1.5rem 2.5rem;
   background-color: #ffc800;
   border: 1px solid #fac811;
@@ -115,12 +95,12 @@ header .container .btn {
   margin: 0 auto;
 }
 
-header .container .btn:hover {
+header .btn:hover {
   background-color: #d9aa00;
   border-color: #cca000;
   cursor: pointer;
 }
 
-header .container .btn a {
+header .btn a {
   color: #fff;
 }

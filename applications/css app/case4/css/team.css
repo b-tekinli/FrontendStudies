@@ -1,60 +1,56 @@
 #team {
-  height: 817px;
   background-color: #f8f9fa;
 }
 
-section .container .text {
+section .text {
   text-align: center;
-  padding-top: 6rem;
 }
 
-section .container .text h2 {
+section .text h2 {
   font-size: 2.2rem;
   margin-bottom: 1rem;
 }
 
-section .container .text h3 {
+section .text h3 {
   font-size: 0.9rem;
   color: grey;
 }
 
-section .container .row {
-  max-width: 100%;
+section .row {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 3rem;
 }
 
-section .container .row .col {
+section .row .col {
   width: 33%;
   flex: 0 0 auto;
 }
 
-section .container .row .col .member {
+section .row .col .member {
   text-align: center;
   margin-bottom: 3rem;
 }
 
-section .container .row .col .member img {
+section .row .col .member img {
   border-radius: 50%;
   border: 0.5rem solid #dfe0e1;
   width: 14rem;
   height: 14rem;
 }
 
-section .container .row .col .member h4 {
+section .row .col .member h4 {
   font-size: 1.5rem;
   margin-top: 1.5rem;
 }
 
-section .container .row .col .member p {
+section .row .col .member p {
   color: #6c757d;
   line-height: 1.75;
   margin-bottom: 1rem;
   font-size: 0.9rem;
 }
 
-section .container .row .col .member a {
+section .row .col .member a {
   height: 2.5rem;
   width: 2.5rem;
   display: inline-flex;
@@ -67,12 +63,12 @@ section .container .row .col .member a {
   padding: 0;
 }
 
-section .container .row .col .member a:hover {
+section .row .col .member a:hover {
   background-color: rgb(63, 63, 63);
   transition: all 0.35s ease;
 }
 
-section .container .paragraph {
+section .paragraph {
   margin-top: 2rem;
   margin-right: auto;
   margin-left: auto;
@@ -80,7 +76,7 @@ section .container .paragraph {
   flex: 0 0 auto;
 }
 
-section .container .paragraph p {
+section .paragraph p {
   margin: 0 auto;
   color: #6c757d;
   line-height: 1.75;
@@ -93,21 +89,25 @@ section .container .paragraph p {
   height: 180px;
 }
 
-.logo .container .row {
+.logo .row {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.logo .container .row .col {
+.logo .row .col {
   margin: 1rem 0;
   flex: 0 0 auto;
   width: 25%;
 }
 
-.logo .container .row .col a img {
+.logo .row .col a img {
   height: 2.75rem;
   max-width: 100%;
   display: block;
   margin: 0 auto;
+}
+
+.col-half {
+  max-width: 50%;
 }
