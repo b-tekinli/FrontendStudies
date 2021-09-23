@@ -95,13 +95,13 @@ section .paragraph p {
   flex-wrap: wrap;
 }
 
-.logo .row .col {
+.logo .col {
   margin: 1rem 0;
   flex: 0 0 auto;
   width: 25%;
 }
 
-.logo .row .col a img {
+.logo a img {
   height: 2.75rem;
   max-width: 100%;
   display: block;

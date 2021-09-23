@@ -11,7 +11,7 @@ section .text h2 {
   font-size: 2.5rem;
   line-height: 1.5;
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem
 }
 
 section .text h3 {
@@ -34,7 +34,6 @@ section .row .timeline ul {
   top: 0;
   bottom: 0;
   width: 2px;
-  height: 100%;
   content: "";
   background-color: #e9ecef;
   left: 50%;
@@ -63,20 +62,20 @@ h2 {
   text-align: center;
 }
 
-section .wrapper .timeline .timeline-image img {
+section .timeline-image img {
   border-radius: 50%;
   height: auto;
   max-width: 100%;
 }
 
-section .wrapper .timeline .timeline-text .head-text h4 {
+section .head-text h4 {
   font-size: 1.3rem;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 0.5rem;
 }
 
-section .wrapper .timeline .timeline-text .body-text p {
+section .body-text p {
   line-height: 1.75;
   color: #6c757d;
 }
@@ -95,4 +94,11 @@ section .wrapper .timeline .timeline-text .body-text p {
   margin-left: -85px;
   position: relative;
   z-index: 2;
+}
+
+.last-circle {
+  background-color: #fac811;
+  color: #fff;
+  margin-right: 575px;
+  padding: 40px;
 }
