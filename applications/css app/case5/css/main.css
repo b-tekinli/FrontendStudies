@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  background: #e94336;
+}
+
+header .text {
+  color: #fff;
+  padding-top: 3.5rem;
+}
+
+header .text h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 2;
+  font-size: 20px;
+}
+
+header .text h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 3rem;
+  padding-bottom: 5rem;
+}
