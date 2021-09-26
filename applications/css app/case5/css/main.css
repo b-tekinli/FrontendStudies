@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: "Segoe UI", Arial, sans-serif;
+
   margin: 0;
   padding: 0;
 }
@@ -18,13 +19,13 @@ header {
 
 header .text {
   color: #fff;
-  padding-top: 3.5rem;
+  padding-top: 3.4rem;
 }
 
 header .text h3 {
   text-transform: uppercase;
   font-weight: 400;
-  line-height: 2;
+  line-height: 2.5;
   font-size: 20px;
 }
 
@@ -33,4 +34,25 @@ header .text h1 {
   font-weight: 400;
   font-size: 3rem;
   padding-bottom: 5rem;
+}
+
+header .btn {
+  background-color: #8e2407;
+  width: 230px;
+  height: 50px;
+  color: #fff;
+  margin: 0 auto;
+  transform: translateY(-70%);
+}
+
+header .btn p {
+  padding: 7px;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+header .btn:hover {
+  background-color: #e94336;
+  cursor: pointer;
+  box-shadow: 0 8px 8px 0 rgb(0, 0, 0, 20%);
 }
