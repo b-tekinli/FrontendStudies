@@ -1,0 +1,29 @@
+section .content-1 .row {
+  display: flex;
+  justify-content: space-between;
+  max-height: 460px;
+  margin: 20px 10px;
+}
+
+section .content-1 .row > div {
+  width: 100%;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
+  text-align: center;
+}
+
+.content-1 .row h2 {
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.content-1 .row .icon {
+  color: #e94336;
+  font-size: 120px;
+}
+
+.content-1 .row p {
+  line-height: 2.5;
+  padding-top: 10px;
+  padding-bottom: 4rem;
+}
