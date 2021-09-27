@@ -5,9 +5,19 @@
   padding: 0;
 }
 
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.text {
+  font-weight: 400;
+  text-align: center;
+}
+
 .container {
   width: 100%;
-  max-width: 1220px;
   margin: 0 auto;
 }
 

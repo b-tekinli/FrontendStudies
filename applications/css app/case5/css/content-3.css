@@ -1,0 +1,12 @@
+section .content-3 {
+  display: block;
+}
+
+.content-3 h2 {
+  font-size: 1.8rem;
+  line-height: 2.5;
+}
+
+.content-3 h3 {
+  font-size: 1.2rem;
+}
