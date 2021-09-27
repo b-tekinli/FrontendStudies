@@ -2,6 +2,10 @@ section .content-2 {
   display: block;
 }
 
+.content-2 h2 {
+  font-size: 1.8rem;
+}
+
 .content-2 .row {
   display: flex;
   margin: 20px auto;
