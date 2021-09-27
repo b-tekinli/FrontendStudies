@@ -1,0 +1,53 @@
+section .content-4 {
+  margin: 0 auto;
+  width: 97%;
+}
+
+section .content-4 h4 {
+  padding: 20px 0;
+}
+
+.content-4 .header {
+  color: #fff;
+  background-color: #607d8b;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.content-4 .header h1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.content-4 .paragraph {
+  margin: 0 15px;
+  width: 95%;
+}
+
+.content-4 .paragraph > p {
+  line-height: 2;
+}
+
+.content-4 .paragraph h2 {
+  font-weight: 400;
+  font-size: 2rem;
+  padding-bottom: 15px;
+}
+
+.content-4 .footer {
+  color: #fff;
+  background-color: #607d8b;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content-4 .footer h3 {
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.content-4 .footer p {
+  color: #bfcbd1;
+  padding-bottom: 5px;
+}
