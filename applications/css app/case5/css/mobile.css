@@ -1,2 +1,20 @@
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  header {
+    width: 100%;
+  }
+
+  .content-1 .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content-1 .col {
+    width: 100%;
+    min-height: 550px;
+  }
+
+  .content-2 .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

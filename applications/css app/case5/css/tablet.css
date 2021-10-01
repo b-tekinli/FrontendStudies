@@ -1,3 +1,11 @@
 @media (max-width: 768px) {
-  
+  .content-1 {
+    width: 100%;
+  }
+
+  .content-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }

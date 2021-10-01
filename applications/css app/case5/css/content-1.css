@@ -1,16 +1,19 @@
 section .content-1 .row {
   display: flex;
   justify-content: space-between;
-  max-height: 460px;
-  margin: 20px 10px;
+  flex-wrap: wrap;
 }
 
-section .content-1 .row > div {
-  width: 100%;
+section .content-1 .col {
+  flex-grow: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card {
   box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0.1);
-  margin-right: 20px;
-  margin-left: 20px;
   text-align: center;
+  padding: 2rem 0;
 }
 
 .content-1 .row h2 {
@@ -24,6 +27,29 @@ section .content-1 .row > div {
 
 .content-1 .row p {
   line-height: 2.5;
-  padding-top: 10px;
-  padding-bottom: 4rem;
+}
+
+.content-1 {
+  padding: 30px 0;
+}
+
+@media (max-width: 600px) {
+  .content-1 .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content-1 .col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .content-1 .col:last-child {
+    margin-bottom: 0;
+  }
+
+  .content-2 .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

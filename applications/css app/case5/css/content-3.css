@@ -1,5 +1,5 @@
 section .content-3 {
-  display: block;
+  /* display: block; */
 }
 
 .content-3 h2 {
@@ -14,7 +14,10 @@ section .content-3 {
 
 .content-3 .row-1 {
   display: flex;
-  margin: 20px 20px;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
 }
 
 .content-3 .row-1 > div {
@@ -32,8 +35,12 @@ section .content-3 {
 
 .content-3 .row-2 {
   display: flex;
-  margin: 20px 20px;
+  flex-wrap: wrap;
+  /* margin: 20px 20px; */
   border: 1px solid #ccc;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
 }
 
 .content-3 .row-2 .col-1 {
@@ -44,7 +51,7 @@ section .content-3 {
 }
 
 .content-3 .row-2 > div {
-  width: 50%;
+  width: calc(100% / 3);
   padding: 10px;
   font-size: 1.1rem;
 }
@@ -55,8 +62,12 @@ section .content-3 {
 
 .content-3 .row-3 {
   display: flex;
-  margin: 20px 20px;
+  flex-wrap: wrap;
+  /* margin: 20px 20px; */
   border: 1px solid #ccc;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
 }
 
 .content-3 .row-3 .col-1 {
@@ -67,7 +78,7 @@ section .content-3 {
 }
 
 .content-3 .row-3 > div {
-  width: 50%;
+  width: calc(100% / 4);
   padding: 15px;
   font-size: 1.1rem;
 }
