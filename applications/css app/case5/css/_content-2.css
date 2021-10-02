@@ -44,6 +44,18 @@ section .content-2 {
   background-color: #f29709;
 }
 
+/* TABLET */
+
+@media (max-width: 768px) {
+  .content-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* MOBILE */
+
 @media (max-width: 600px) {
   .content-2 .row {
     display: flex;

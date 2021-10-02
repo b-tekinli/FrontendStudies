@@ -33,6 +33,15 @@ section .content-1 .col {
   line-height: 2.5;
 }
 
+/* TABLET */
+@media (max-width: 768px) {
+  .content-1 {
+    width: 100%;
+  }
+}
+
+
+/* MOBILE */
 @media (max-width: 600px) {
   .content-1 .row {
     display: flex;

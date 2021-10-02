@@ -9,6 +9,8 @@
 }
 
 .content-3 .row-1 {
+  display: flex;
+  flex-wrap: wrap;
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 20px;
@@ -28,6 +30,8 @@
 }
 
 .content-3 .row-2 {
+  display: flex;
+  flex-wrap: wrap;
   border: 1px solid #ccc;
   padding-left: 20px;
   padding-right: 20px;
@@ -38,7 +42,6 @@
   background-color: #5eaf50;
   color: #fff;
   line-height: 1.5rem;
-  border: 1px solid #ccc;
 }
 
 .content-3 .row-2 > div {
@@ -52,6 +55,8 @@
 }
 
 .content-3 .row-3 {
+  display: flex;
+  flex-wrap: wrap;
   border: 1px solid #ccc;
   padding-left: 20px;
   padding-right: 20px;
