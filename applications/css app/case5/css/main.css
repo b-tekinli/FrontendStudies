@@ -3,13 +3,13 @@
 --laptop: 1024;
 --desktop: 1200; */
 
-@import './_reboot.css';
-@import './_header.css';
-@import './footer.css';
-@import './content-1.css';
-@import './content-2.css';
-@import './content-3.css';
-@import './content-4.css';
+@import "./_reboot.css";
+@import "./_header.css";
+@import "./_footer.css";
+@import "./_content-1.css";
+@import "./_content-2.css";
+@import "./_content-3.css";
+@import "./_content-4.css";
 
 .text {
   font-weight: 400;
@@ -26,4 +26,3 @@
     max-width: 1200px;
   }
 } */
-

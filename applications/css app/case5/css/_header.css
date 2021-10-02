@@ -1,48 +1,43 @@
 header {
-    text-align: center;
-    background: #e94336;
-    color: #fff;
-    padding: 2rem 0;
-  }
-  
-  header h3 {
-    text-transform: uppercase;
-    font-weight: 400;
-    line-height: 2.5;
-    font-size: 20px;
-  }
-  
-  header h1 {
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 3rem;
-    margin-bottom: 2rem;
-  }
-  
-  header .btn {
-    border: 1px solid #8e2407;
-    background-color: #8e2407;
-    width: 230px;
-    height: 50px;
-    color: #fff;
-    margin: 0 auto;
-  }
-  
-  header .btn p {
-    padding: 7px;
-    font-size: 1.7rem;
-    font-weight: 700;
-  }
-  
-  header .btn:hover {
-    background-color: #e94336;
-    cursor: pointer;
-    box-shadow: 0 8px 8px 0 rgb(0, 0, 0, 20%);
-  }
+  text-align: center;
+  background: #e94336;
+  color: #fff;
+  padding: 2rem 0;
+}
 
-  @media (max-width: 768px) {
-    header {
-      width: 100%;
-    }
+header h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 2.5;
+  font-size: 20px;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+header .btn {
+  border: 1px solid #8e2407;
+  background-color: #8e2407;
+  width: 230px;
+  height: 50px;
+  color: #fff;
+  margin: 0 auto;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+header .btn:hover {
+  background-color: #e94336;
+  cursor: pointer;
+  box-shadow: 0 8px 8px 0 rgb(0, 0, 0, 20%);
+}
+
+@media (max-width: 768px) {
+  header {
+    width: 100%;
   }
-  
+}

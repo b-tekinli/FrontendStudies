@@ -43,3 +43,10 @@ section .content-2 {
 .content-2 .row .col-6 {
   background-color: #f29709;
 }
+
+@media (max-width: 600px) {
+  .content-2 .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
