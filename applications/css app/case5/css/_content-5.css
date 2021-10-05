@@ -25,7 +25,7 @@
 
 .content-5 .head h3 {
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: 600;
   display: flex;
   padding: 13px 20px;
 }
@@ -35,4 +35,26 @@
   font-weight: 400;
   display: flex;
   padding: 13px 20px;
+}
+
+.content-5 .con {
+  font-size: 1.4em;
+  font-weight: 300;
+  padding: 13px 20px;
+}
+
+.content-5 .con p {
+  display: flex;
+}
+
+.footer {
+  color: #fff;
+}
+
+.footer h5 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 15px;
+  font-size: 1em;
+  font-weight: 500;
 }
