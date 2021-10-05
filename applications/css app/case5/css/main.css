@@ -12,11 +12,11 @@
 @import "./_content-4.css";
 @import "./_content-5.css";
 @import "./_content-6.css";
-@import "./_content-7.css";
 
 .text {
   font-weight: 400;
   text-align: center;
+  padding-bottom: 5px;
 }
 
 /*

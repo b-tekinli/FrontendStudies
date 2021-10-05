@@ -1,10 +1,10 @@
-section .content-1 .row {
+.content-1 .row {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-section .content-1 .col {
+.content-1 .col {
   flex-grow: 1;
   padding-left: 15px;
   padding-right: 15px;

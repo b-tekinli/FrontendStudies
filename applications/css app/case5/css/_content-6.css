@@ -1,0 +1,43 @@
+.content-6 .row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  padding-bottom: 1.5rem;
+}
+
+.content-6 p {
+  padding: 10px;
+  display: flex;
+  padding-left: 15px;
+}
+
+/* TABLET */
+@media (max-width: 768px) {
+  .content-6 {
+    width: 100%;
+  }
+
+  .content-6 .col > div {
+    width: calc(100 / 3);
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .content-6 .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content-6 .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .content-6 p {
+    padding: 10px;
+    display: flex;
+    padding-left: 15px;
+  }
+}

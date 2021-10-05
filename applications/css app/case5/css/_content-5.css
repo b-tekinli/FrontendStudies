@@ -39,7 +39,7 @@
 
 .content-5 .con {
   font-size: 1.4em;
-  font-weight: 300;
+  font-weight: 400;
   padding: 13px 20px;
 }
 
@@ -57,4 +57,27 @@
   padding: 5px 15px;
   font-size: 1em;
   font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .content-5 .con p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .content-5 .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content-5 .row > div {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .content-5 .con p {
+    font-size: 15px;
+  }
 }
