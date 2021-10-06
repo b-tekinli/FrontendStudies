@@ -1,0 +1,9 @@
+/* 
+MOBILE : < 1023;
+DESKTOP : > 1200; 
+*/
+
+@import "./_reboot.css";
+@import "./_header.css";
+@import "./_footer.css";
+@import "./_content.css";
