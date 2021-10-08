@@ -4,27 +4,86 @@ header {
   align-items: flex-end;
 }
 
-.wrapper {
-  width: 275px;
+.container {
+  margin: 0 auto;
+  width: 1024px;
 }
 
-nav {
-  height: 100%;
-  position: fixed;
+.nav-menu {
+  width: 95%;
+  height: 760px;
+  border-right: 1px solid #e8e8e8;
+}
+
+.navmenu-center {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.logo {
+  padding: 10px 0px 20px 30px;
+}
+
+.logo i {
+  font-size: 33px;
+  color: #00a7ff;
+}
+
+.option div {
+  padding: 5px 0 12px 20px;
+}
+
+.option div a {
+  padding: 12px 15px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.option div a:hover {
+  background: #eff1f1;
+  color: #000;
+}
+
+.option div a i {
+  font-weight: 100;
+  padding: 0 20px 0 0;
+}
+
+.option button {
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 17px 80px;
+  background: #00a7ff;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+}
+
+.option button:hover {
+  transition: all ease 0.3s;
+  background: #00a7ff;
+}
+
+.content {
+  background: #fff;
+  width: 100%;
+  border-right: 1px solid #e8e8e8;
+}
+
+.prefer {
+  width: 100%;
+  position: sticky;
   top: 0;
-}
-
-.navbar {
-  overflow-y: auto;
-}
-
-.nav-main {
+  background: #fff;
+  z-index: 7;
   display: flex;
-  align-items: flex-start;
-}
-
-.nav-icon {
-  max-width: 100%;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e8e8e8;
 }
