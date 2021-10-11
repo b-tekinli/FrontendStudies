@@ -4,20 +4,14 @@ header {
   align-items: flex-end;
 }
 
-.container {
-  margin: 0 auto;
-  width: 1024px;
-}
-
 .nav-menu {
   width: 95%;
-  height: 760px;
   border-right: 1px solid #e8e8e8;
 }
 
 .navmenu-center {
   margin: 0 auto;
-  width: 75%;
+  width: 70%;
 }
 
 .logo {
@@ -65,25 +59,6 @@ header {
 }
 
 .option button:hover {
-  transition: all ease 0.3s;
-  background: #00a7ff;
-}
-
-.content {
-  background: #fff;
-  width: 100%;
-  border-right: 1px solid #e8e8e8;
-}
-
-.prefer {
-  width: 100%;
-  position: sticky;
-  top: 0;
-  background: #fff;
-  z-index: 7;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #e8e8e8;
+  transition: all ease 0.2s;
+  background: #268cd8;
 }

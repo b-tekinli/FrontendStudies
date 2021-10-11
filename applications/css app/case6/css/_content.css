@@ -1,0 +1,127 @@
+section .content {
+  background: #fff;
+  width: 97%;
+  border-right: 1px solid #e8e8e8;
+}
+
+.main {
+  width: 65%;
+  height: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e8e8e8;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 7;
+}
+
+.main span {
+  padding: 0 20px;
+}
+
+.main span a {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main span i {
+  color: #000;
+  font-size: 20px;
+  padding: 8px 8px;
+}
+
+.main span i:hover {
+  background-color: #e7e7e8;
+  border-radius: 50%;
+}
+
+.tweet {
+  max-height: 704px;
+}
+
+.tweet:hover {
+  overflow-y: auto;
+}
+
+.your-tweet {
+  width: 100%;
+  border-bottom: 10px solid #e8e8e8;
+  height: 130px;
+}
+
+.profile-message {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.profile-message img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.profile-message img:hover {
+  opacity: 1;
+}
+
+.profile-message span input {
+  padding: 0 0 0 10px;
+  font-size: 20px;
+  color: #525252;
+  letter-spacing: 0.5px;
+  border: none;
+  outline: none;
+}
+
+.add-extra {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.images-more {
+  margin: 5px 0 5px 7px;
+}
+
+.images-more span a {
+  color: #00a7ff;
+  font-size: 20px;
+  padding: 8px 8px;
+  border-radius: 50%;
+}
+
+.images-more span a:hover {
+  background: #e1f5ff;
+}
+
+.add-extra span button {
+  margin: 0 30px 0 0;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+  background: #00a7ff;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.add-extra span button:hover {
+  background: #0093ff;
+}
+
+.other-tweets {
+  width: 100%;
+}
+
+.other-tweet {
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+}
