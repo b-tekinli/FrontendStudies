@@ -1,0 +1,193 @@
+.tweet {
+  max-height: 700px;
+  overflow-y: auto;
+}
+
+.your-tweet {
+  width: 100%;
+  border-bottom: 10px solid #e8e8e8;
+}
+
+.profile-message {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.profile-message img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.profile-message img:hover {
+  opacity: 1;
+}
+
+.profile-message span input {
+  padding: 0 0 0 10px;
+  font-size: 20px;
+  color: #525252;
+  letter-spacing: 0.7px;
+  border: none;
+  outline: none;
+}
+
+.add-object {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.images-more {
+  margin: 5px 0 5px 7px;
+}
+
+.images-more span a {
+  color: #00a7ff;
+  font-size: 20px;
+  padding: 8px 8px;
+  border-radius: 50%;
+}
+
+.images-more span a:hover {
+  background: #e1f5ff;
+}
+
+.add-object span button {
+  margin: 0 30px 0 0;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+  background: #00a7ff;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.add-object span button:hover {
+  background: #0093ff;
+  cursor: pointer;
+}
+
+.other-tweets {
+  width: 100%;
+}
+
+.other-tweet {
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.profile-msg {
+  margin: 20px 0 10px 0;
+  align-items: center;
+}
+
+.others-profile {
+  padding: 0 0 0 10px;
+}
+
+.others-profile img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+.others-profile img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.name span i {
+  color: #00a7ff;
+  padding: 0px 4px 0 4px;
+  font-size: 20px;
+}
+
+.name {
+  cursor: pointer;
+}
+
+.name span p {
+  color: #5d5d5d;
+}
+
+.name span b {
+  color: #000;
+}
+
+.msg {
+  color: #000;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 5px 0 0 0;
+  text-align: center;
+  text-justify: inter-word;
+  word-wrap: break-word;
+}
+
+.name span b:hover {
+  text-decoration: underline;
+}
+
+.more-options {
+  cursor: pointer;
+}
+
+.image-video {
+  margin: 0 0 0 12%;
+}
+
+.image-video img {
+  border-radius: 20px;
+  width: 60%;
+  max-height: 280px;
+}
+
+.reaction {
+  margin: 3px 0 5px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 70%;
+  opacity: 0.7;
+}
+
+.reaction div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.reaction div p {
+  padding: 0 0 0 5px;
+  font-size: 12px;
+}
+
+.reaction div i {
+  font-size: 20px;
+  padding: 5px 5px;
+  border-radius: 50%;
+}
+
+.comment:hover {
+  color: #00a7ff;
+}
+
+.retweet:hover {
+  color: green;
+}
+
+.like:hover {
+  color: red;
+}
+
+.bookmark:hover {
+  color: #00a7ff;
+}

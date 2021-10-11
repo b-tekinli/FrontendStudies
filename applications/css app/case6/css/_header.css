@@ -5,7 +5,7 @@ header {
 }
 
 .nav-menu {
-  width: 95%;
+  width: 100%;
   border-right: 1px solid #e8e8e8;
 }
 
@@ -27,6 +27,7 @@ header {
 .logo i:hover {
   background-color: #e7f4fd;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .navbar div {
@@ -36,7 +37,7 @@ header {
 .navbar div a {
   padding: 12px 15px;
   color: #000;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   border-radius: 30px;
 }

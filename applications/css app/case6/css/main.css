@@ -6,7 +6,9 @@ DESKTOP : > 1200;
 @import "./_reboot.css";
 @import "./_header.css";
 @import "./_footer.css";
-@import "./_content.css";
+@import "./_home-page.css";
+@import "./_tweet.css";
+@import "./_trend.css";
 
 .container {
   margin: 0 auto;
