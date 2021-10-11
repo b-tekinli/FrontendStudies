@@ -9,44 +9,49 @@ header {
   border-right: 1px solid #e8e8e8;
 }
 
-.navmenu-center {
+.nav-center {
   margin: 0 auto;
   width: 70%;
 }
 
 .logo {
-  padding: 10px 0px 20px 30px;
+  padding: 15px 0px 20px 30px;
 }
 
 .logo i {
   font-size: 33px;
   color: #00a7ff;
+  padding: 8px 8px;
 }
 
-.option div {
+.logo i:hover {
+  background-color: #e7f4fd;
+  border-radius: 50%;
+}
+
+.navbar div {
   padding: 5px 0 12px 20px;
 }
 
-.option div a {
+.navbar div a {
   padding: 12px 15px;
   color: #000;
   font-size: 20px;
   font-weight: 500;
   border-radius: 30px;
-  text-decoration: none;
 }
 
-.option div a:hover {
+.navbar div a:hover {
   background: #eff1f1;
   color: #000;
 }
 
-.option div a i {
+.navbar div a i {
   font-weight: 100;
   padding: 0 20px 0 0;
 }
 
-.option button {
+.navbar button {
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
@@ -58,7 +63,7 @@ header {
   border-radius: 30px;
 }
 
-.option button:hover {
+.navbar button:hover {
   transition: all ease 0.2s;
   background: #268cd8;
 }

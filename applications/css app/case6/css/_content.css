@@ -76,7 +76,7 @@ section .content {
   padding: 0 0 0 10px;
   font-size: 20px;
   color: #525252;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   border: none;
   outline: none;
 }
