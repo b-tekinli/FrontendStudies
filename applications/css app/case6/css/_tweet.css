@@ -114,6 +114,10 @@
   cursor: pointer;
 }
 
+.name .msg p {
+  text-align: left;
+}
+
 .name span p {
   color: #5d5d5d;
 }
