@@ -1,5 +1,8 @@
 .trend-menu {
-  width: 100%;
+  max-width: 400px;
+  position: absolute;
+  left: 1000px;
+  bottom: 100px;
 }
 
 .trend-center {
@@ -57,6 +60,10 @@
 .trending:hover,
 .follow:hover {
   overflow-y: auto;
+}
+
+.follow {
+  max-height: 280px;
 }
 
 .follow .head {
@@ -167,4 +174,3 @@
 .person-profile img:hover {
   opacity: 1;
 }
-
