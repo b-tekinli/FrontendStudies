@@ -40,6 +40,10 @@
   color: #454545;
 }
 
+.trending > div {
+  padding: 15px 8px;
+}
+
 .trending,
 .follow {
   max-height: 333px;
@@ -104,3 +108,63 @@
   font-size: 15px;
   font-weight: 600;
 }
+
+.trend with p a {
+  color: #00a7ff;
+}
+
+.trend-with p a:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.trend-pic {
+  padding: 20px 0;
+}
+
+.trend-pic img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.trend:hover,
+.person:hover {
+  background: #e8e8e8;
+}
+
+.show-more {
+  padding: 12px 12px;
+  text-decoration: underline;
+}
+
+.show-more:hover {
+  background: #e8e8e8;
+  border-radius: 30px;
+}
+
+.show-more a {
+  color: #00a7ff;
+}
+
+.persons > div {
+  padding: 15px 20px;
+  align-items: center;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.person-profile {
+  padding: 0 0 0 10px;
+}
+
+.person-profile img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  opacity: 0.9;
+}
+
+.person-profile img:hover {
+  opacity: 1;
+}
+

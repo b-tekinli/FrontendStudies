@@ -12,5 +12,12 @@ DESKTOP : > 1200;
 
 .container {
   margin: 0 auto;
-  width: 600px;
+  max-width: 500px;
+}
+
+.container-trend {
+  max-width: 400px;
+  position: absolute;
+  left: 1000px;
+  bottom: 50px;
 }

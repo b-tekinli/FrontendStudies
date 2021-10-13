@@ -8,11 +8,16 @@
   border-bottom: 10px solid #e8e8e8;
 }
 
-.profile-message {
+.profile-msg {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   padding: 10px 15px;
+}
+
+.profile-msg p {
+  padding-top: 2px;
+  padding-left: 15px;
 }
 
 .profile-message img {
@@ -130,7 +135,7 @@
   color: #000;
   font-size: 17px;
   font-weight: 500;
-  padding: 5px 0 0 0;
+  padding: 7px 0 0 0;
   text-align: center;
   text-justify: inter-word;
   word-wrap: break-word;
@@ -189,7 +194,7 @@
 }
 
 .like:hover {
-  color: red;
+  color: rgb(255, 187, 0);
 }
 
 .bookmark:hover {
