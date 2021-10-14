@@ -1,0 +1,13 @@
+@media (min-width: 1023px) {
+  .nav-center {
+    width: 98%;
+  }
+
+  .navbar div a i {
+    border-radius: 50%;
+  }
+
+  .mobile-tweet {
+    display: none;
+  }
+}

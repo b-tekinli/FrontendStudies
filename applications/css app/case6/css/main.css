@@ -9,6 +9,8 @@ DESKTOP : > 1024;
 @import "./_home-page.css";
 @import "./_tweet.css";
 @import "./_trend.css";
+@import "./_desktop.css";
+@import "./_mobile.css";
 
 .container {
   margin: 0 auto;

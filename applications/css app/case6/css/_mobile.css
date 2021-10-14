@@ -1,0 +1,49 @@
+@media (max-width: 1023px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .navbar button {
+    padding: 10px 10px;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .home-page {
+    text-align: center;
+  }
+
+  .main {
+    height: 20px;
+    padding: 0.5em;
+  }
+
+  .main a {
+    color: #000;
+    font-size: 22px;
+  }
+
+  .main i {
+    color: rgb(255, 187, 0);
+    font-size: 22px;
+  }
+
+  .tweet {
+    padding-left: 6rem;
+  }
+
+  .tweet .your-tweet {
+    display: none;
+  }
+
+  .trend-menu {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+}

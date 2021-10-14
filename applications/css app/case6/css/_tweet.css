@@ -5,7 +5,7 @@
 
 .your-tweet {
   width: 100%;
-  border-bottom: 10px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
 }
 
 .profile-msg {
@@ -45,6 +45,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.add-object span {
+  margin-bottom: 20px;
 }
 
 .images-more {
