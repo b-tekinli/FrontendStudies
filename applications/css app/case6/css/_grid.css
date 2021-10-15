@@ -1,0 +1,45 @@
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.grow-1 {
+    flex: 1;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1600px) {
+    .desktop-hidden {
+        display: none;
+    }
+
+    .container {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1599px) {
+    .mobile-hidden {
+        display: none;
+    }
+}

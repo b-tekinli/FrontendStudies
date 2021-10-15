@@ -1,0 +1,13 @@
+.mobile-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+.mobile-navbar a {
+    color: #000000;
+    font-size: 20px;
+}

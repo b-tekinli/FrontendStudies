@@ -1,0 +1,13 @@
+/*
+MOBILE : < 1599;
+DESKTOP : > 1600;
+*/
+
+@import "./_reboot.css";
+@import './_grid.css';
+@import "./_header.css";
+@import "./_navbar.css";
+@import './_aside.css';
+@import './_article.css';
+@import './_form.css';
+@import "./_footer.css";
