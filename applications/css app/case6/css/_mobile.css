@@ -17,13 +17,21 @@
   }
 
   .main {
-    height: 20px;
-    padding: 0.5em;
+    max-height: 30px;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    text-align: center;
+    align-items: center;
+  }
+
+  .main span {
+    margin-bottom: 10px;
   }
 
   .main a {
     color: #000;
-    font-size: 22px;
+    font-size: 20px;
+    cursor: pointer;
   }
 
   .main i {
@@ -37,6 +45,32 @@
 
   .tweet .your-tweet {
     display: none;
+  }
+
+  .mobile-tweet {
+    position: absolute;
+    left: 410px;
+    bottom: 70px;
+    background-color: #00a7ff;
+    color: #fff;
+    border-radius: 50%;
+    padding: 15px 15px;
+    font-size: 18px;
+  }
+
+  .mobile-tweet:hover {
+    background-color: #0093ff;
+  }
+
+  .mobile-navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 15px;
+  }
+
+  .mobile-navbar div a {
+    color: #000;
+    font-size: 20px;
   }
 
   .trend-menu {
