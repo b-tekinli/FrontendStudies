@@ -1,0 +1,13 @@
+main {
+  max-width: 650px;
+  border: 1px solid rgb(223, 223, 223);
+  border-top: none;
+  padding: 10px;
+}
+
+article {
+  border: 1px solid rgb(223, 223, 223);
+  border-left: none;
+  border-right: none;
+  padding: 30px;
+}
