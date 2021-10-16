@@ -58,16 +58,11 @@ aside {
   background: #efefef;
   border-radius: 20px;
   margin: 0 0 20px 0;
-  overflow-y: hidden;
-}
-
-.trending:hover,
-.follow:hover {
-  overflow-y: auto;
 }
 
 .follow {
   max-height: 280px;
+  overflow-y: auto;
 }
 
 .follow .head {

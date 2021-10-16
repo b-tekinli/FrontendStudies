@@ -17,7 +17,8 @@ main {
 
 .timeline-title i {
   font-size: 20px;
-  color: rgb(245, 189, 69);
+  color: #f5bd45;
+  margin-right: 15px;
 }
 
 .timeline .form .col {
@@ -76,6 +77,65 @@ article {
   padding: 20px 10px;
 }
 
+.post:hover {
+  cursor: pointer;
+}
+
 .post .pp img {
   border-radius: 50%;
+}
+
+.tweet > p {
+  padding: 7px 0px 15px 0;
+}
+
+.tweet img {
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+
+.reaction button {
+  padding: 8px 8px;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.reaction button:hover {
+  background-color: #fff;
+}
+
+.comment {
+  border: 1px solid #00a7ff;
+  background-color: #00a7ff;
+}
+
+.comment:hover {
+  color: #00a7ff;
+}
+
+.retweet {
+  border: 1px solid #63be82;
+  background-color: #63be82;
+}
+
+.retweet:hover {
+  color: #63be82;
+}
+
+.fav {
+  border: 1px solid #f5bd45;
+  background-color: #f5bd45;
+}
+
+.fav:hover {
+  color: #f5bd45;
+}
+
+.save {
+  border: 1px solid #00a7ff;
+  background-color: #00a7ff;
+}
+
+.save:hover {
+  color: #00a7ff;
 }
