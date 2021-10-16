@@ -12,11 +12,13 @@
 
 header {
   width: 300px;
+  padding-top: 10px;
+  padding-left: 6.5rem;
 }
 
 header nav ul li a {
   display: block;
-  padding: 12px 0;
+  padding: 20px 10px;
   color: #000;
   font-size: 22px;
   font-weight: 500;
@@ -48,4 +50,10 @@ header nav ul li a i {
 .navbar button:hover {
   transition: all ease 0.2s;
   background: #268cd8;
+}
+
+@media screen and (max-width: 1023px) {
+  .mobile-hidden {
+    display: none;
+  }
 }

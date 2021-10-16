@@ -4,7 +4,7 @@ aside {
 
 .search {
   width: 100%;
-  height: 55px;
+  padding-bottom: 7px;
   position: sticky;
   top: 0;
   background: #fff;
@@ -15,7 +15,7 @@ aside {
 .search input {
   width: 100%;
   height: 40px;
-  margin: 2px 0 0 0;
+  margin: 10px 0 0 0;
   padding: 0 10px 0 50px;
   border-radius: 30px;
   background: #ebebeb;
@@ -28,15 +28,19 @@ aside {
 
 .search span {
   position: absolute;
-  left: 7px;
-  top: 12px;
+  left: 10px;
+  top: 20px;
   font-size: 20px;
   font-weight: 100;
   color: #454545;
 }
 
 .trending > div {
-  padding: 15px 8px;
+  padding: 5px 8px;
+}
+
+.trending .head {
+  margin: 10px 0 0 7px;
 }
 
 .trending,
@@ -76,44 +80,38 @@ aside {
 }
 
 .trend {
+  max-width: 226px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   border-bottom: 1px solid #d4d4d4;
 }
 
-.trend-msg {
-  margin: 15px 0 0 20px;
+.trend-message {
+  margin: 5px 0 0 8px;
 }
 
-.trned-name {
+.trend-name {
   margin: 0 0 10px 0;
   cursor: pointer;
 }
 
 .trend-name p,
-.trend-width p {
-  font-size: 12px;
+.trend-with p {
+  font-size: 16px;
   opacity: 0.7;
 }
 
-.trend-width {
+.trend-with {
   margin: 0 0 20px 0;
   cursor: pointer;
 }
 
-.subject p {
-  margin: 0 0 10px 0;
-  cursor: pointer;
-  font-size: 15px;
-  font-weight: 600;
-}
-
-.trend with p a {
-  color: #00a7ff;
+.trend-with p a {
+  color: #000;
 }
 
 .trend-with p a:hover {
-  color: #000;
+  color: #00a7ff;
   cursor: pointer;
 }
 
@@ -147,6 +145,7 @@ aside {
 }
 
 .persons > div {
+  display: flex;
   padding: 15px 20px;
   align-items: center;
   border-bottom: 1px solid #d4d4d4;
@@ -165,4 +164,26 @@ aside {
 
 .person-profile img:hover {
   opacity: 1;
+}
+
+.persons .name > div {
+  padding: 2px 15px;
+}
+
+.persons .main-name > div {
+  padding: 5px 15px;
+}
+
+.request button {
+  font-size: 12px;
+  padding: 8px 8px;
+  border-radius: 30px;
+  border: 1px solid #00a7ff;
+  background-color: #00a7ff;
+  color: #fff;
+}
+
+.request button:hover {
+  background-color: #268cd8;
+  cursor: pointer;
 }
