@@ -1,6 +1,6 @@
 /*
-MOBILE : < 1599;
-DESKTOP : > 1600;
+MOBILE : < 1023;
+DESKTOP : > 1024;
 */
 
 @import "./_reboot.css";
