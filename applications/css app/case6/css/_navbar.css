@@ -3,10 +3,20 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #ffffff;
+  height: 40px;
+  background-color: #fff;
+
+  padding: 8px;
 }
 
 .mobile-navbar a {
   color: #000000;
   font-size: 20px;
+  padding: 8px 8px;
+  margin: 10px;
+}
+
+.mobile-navbar a:hover {
+  background: #eff1f1;
+  border-radius: 50%;
 }

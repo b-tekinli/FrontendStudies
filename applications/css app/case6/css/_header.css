@@ -50,9 +50,3 @@ header nav ul li a i {
   transition: all ease 0.2s;
   background: #268cd8;
 }
-
-@media screen and (max-width: 1023px) {
-  .mobile-hidden {
-    display: none;
-  }
-}
