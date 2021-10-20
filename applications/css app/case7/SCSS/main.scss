@@ -32,7 +32,7 @@ body {
 .main {
   @include flexCenter(row);
   width: 80%;
-  margin: 20px auto;
+  margin: 0px auto;
 
   #{&}_paragraph1 {
     font-weight: weight(bold);
