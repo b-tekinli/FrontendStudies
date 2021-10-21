@@ -4,8 +4,23 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: linear-gradient
-      (to right, rgba($primary-color, 0.9), rgba($primary-color, 0.3)),
+  background: linear-gradient(
+      to right,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.3)
+    ),
     url("../dist/img/model-1.jpg") center top;
   background-size: cover;
+
+  &_name {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    border-bottom: 2px solid set-text-color($primary-color);
+
+    &--last {
+      color: $secondary-color;
+      font-weight: 700;
+    }
+  }
 }
