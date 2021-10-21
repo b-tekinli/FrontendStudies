@@ -36,10 +36,14 @@
       background: set-text-color($primary-color);
       @include transition-ease;
     }
-
-    &.open {
-      transform: rotate(720deg);
-      background: transparent;
-    }
   }
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  opacity: 0.98;
+  visibility: hidden;
 }
