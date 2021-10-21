@@ -4,6 +4,8 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: url("../img/model-1.jpg");
+  background: linear-gradient
+      (to right, rgba($primary-color, 0.9), rgba($primary-color, 0.3)),
+    url("../dist/img/model-1.jpg") center top;
   background-size: cover;
 }
