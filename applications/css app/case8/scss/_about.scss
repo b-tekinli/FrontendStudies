@@ -31,12 +31,13 @@
   }
 
   .jobs {
-    width: 60vh;
+    width: 100%;
     margin: 3.5rem auto 0 auto;
+    
 
     &_job {
       background: lighten($primary-color, 10%);
-      padding: 0.5rem;
+      padding: 1.5rem;
       margin: 1.5rem;
       border-bottom: 5px solid $secondary-color;
 

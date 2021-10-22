@@ -1,3 +1,38 @@
+// DESKTOP
+@include media-desktop {
+  .about {
+    .about_bio {
+      &-img {
+        padding-left: 12rem;
+        padding-right: 11rem;
+      }
+    }
+
+    .jobs {
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 11rem;
+      padding-right: 2rem;
+    }
+  }
+
+  .projects {
+    &_items {
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 15rem;
+      padding-right: 15rem;
+    }
+  }
+
+  .contact {
+    i {
+      padding-top: 2rem;
+    }
+  }
+}
+
+// MOBILE
 @include media-mobile {
   .menu-btn {
     visibility: hidden;
@@ -12,6 +47,7 @@
       height: 100%;
       background: transparent;
       text-align: right;
+      padding-top: 1rem;
 
       &_item {
         display: inline;
@@ -21,11 +57,21 @@
       &_link {
         font-size: 1.3rem;
       }
+
+      &_link:hover {
+        @include transition-ease;
+        color: $secondary-color;
+      }
     }
   }
 
   .about_bio {
     font-size: 1.3rem;
+
+    &-img {
+      padding-left: 2.7rem;
+      padding-right: 1rem;
+    }
   }
 
   .projects {
@@ -35,7 +81,7 @@
       height: 40vh;
     }
 
-    &_items {
+    &_item {
       &_items {
         display: flex;
         flex-wrap: wrap;
@@ -46,15 +92,10 @@
       font-size: 3rem;
     }
   }
-}
 
-@include media-desktop {
-  .projects {
-    &_items {
-      display: flex;
-      flex-wrap: wrap;
-      padding-left: 15rem;
-      padding-right: 15rem;
+  .contact {
+    &_list > div {
+      padding-top: 1.7rem;
     }
   }
 }
