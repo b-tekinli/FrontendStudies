@@ -1,0 +1,59 @@
+@mixin Menu($className, $align) {
+  @if $className {
+    .#{$className} {
+      ul {
+        display: flex;
+        justify-content: $align;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+
+        li {
+          display: block;
+          padding-left: 15px;
+          padding-right: 15px;
+
+          a {
+            display: block;
+            color: $text-color;
+          }
+
+          &:hover,
+          &.active {
+            a {
+              color: $hover-color;
+            }
+          }
+        }
+      }
+    }
+  } @else {
+    nav {
+      ul {
+        display: flex;
+        justify-content: $align;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+
+        li {
+          display: block;
+          padding-left: 15px;
+          padding-right: 15px;
+
+          a {
+            display: block;
+            color: $text-color;
+          }
+
+          &:hover,
+          &.active {
+            a {
+              color: $hover-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
