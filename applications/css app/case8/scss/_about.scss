@@ -22,7 +22,7 @@
   }
 
   &_bio {
-    width: 80%;
+    width: 50%;
     text-align: center;
 
     .text-secondary {
@@ -31,10 +31,6 @@
   }
 
   .jobs {
-    width: 100%;
-    margin: 3.5rem auto 0 auto;
-    
-
     &_job {
       background: lighten($primary-color, 10%);
       padding: 1.5rem;

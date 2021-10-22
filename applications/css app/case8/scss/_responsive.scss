@@ -3,16 +3,27 @@
   .about {
     .about_bio {
       &-img {
-        padding-left: 12rem;
-        padding-right: 11rem;
+        margin: 0 auto;
+        width: 100%;
       }
     }
 
+    &-img {
+      margin: 0 auto;
+      width: 60%;
+    }
+
     .jobs {
+      margin: 0 auto;
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
-      padding-left: 11rem;
-      padding-right: 2rem;
+
+      &_job {
+        margin: 0 auto;
+        width: 60%;
+        margin-top: 3.5rem;
+      }
     }
   }
 
