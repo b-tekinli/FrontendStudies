@@ -11,17 +11,94 @@
     <title>Tailwind CSS</title>
 </head>
 
-<body class="bg-gray-300 flex">
-    <div class="h-10 w-full border-b border-gray-100 flex justify-between items-center px-5">
-        <a href="#" class="text-xl font-medium inline-flex items-center text-gray-700">
-            ./deneme
-            <span class="text-sm text-gray-500"></span>
-        </a>
-        <form action="">
-            <input type="text" placeholder="Makalelerde Ara">
-        </form>
-        <a href="#">Giriş Yap</a>
-    </div>
+<body>
+    <!-- START HEADER -->
+    <header class="bg-indigo-700 p-4 flex justify-between items-center">
+        <div class="flex items-center">
+            <img src="https://cdn2.iconfinder.com/data/icons/icontober/64/Inkcontober_Trail-512.png" width="50"
+                class="mr-2" alt="Logo">
+            <a href="#" class="inline-block p-2 text-indigo-200 hover:text-indigo-100 mr-2">Home</a>
+            <a href="#" class="inline-block p-2 text-indigo-200 hover:text-indigo-100 mr-2">About</a>
+        </div>
+
+        <div>
+            <a href="#" class="inline-block p-2 text-indigo-200 hover:text-indigo-100 mr-2">Login</a>
+            <a href="#"
+                class="inline-block py-2 px-4 text-yellow-700 font-semibold bg-yellow-400 hover:bg-yellow-300 hover:text-yellow-800 rounded transition ease-in duration-150">
+                Sign Up
+            </a>
+        </div>
+    </header>
+    <!-- END HEADER -->
+
+
+
+    <!-- START MAIN -->
+    <section class="md:flex justify-between py-20 px-10 bg-indigo-600 text-indigo-100">
+        <div class="md:w-1/2 mb-10 md:mb-0">
+            <h2 class="text-2xl md:text-4x1 lg:text-6x1 text-white mb-6">Welcome to Doggo City!</h2>
+            <p class="mb-6">There is never a sad day here!</p>
+
+            <a href="#"
+                class="inline-block py-3 px-6 text-lg bg-gray-400 text-gray-800 font-semibold hover:bg-gray-300 rounded mr-2 transition ease-in duration-150">
+                Learn More
+            </a>
+            <a href="#"
+                class="inline-block py-3 px-6 text-lg bg-yellow-500 text-yellow-800 font-semibold hover:bg-yellow-300 rounded transition ease-in duration-300">
+                Get Started
+            </a>
+        </div>
+
+        <div class="md:w-1/2">
+            <img src="https://images.unsplash.com/photo-1536012441472-aae6b3ce330f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+                alt="Happiest Dogo" class="w-full rounded shadow-2x1">
+        </div>
+    </section>
+
+    <section class="md:flex py-16 px-10 bg-indigo-800 text-indigo-200 text-center">
+        <div class="mr-2 text-center">
+            <img src="https://images.unsplash.com/photo-1586179253019-ac8a2522535f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1568&q=80"
+                class="w-full mb-4 rounded border-solid border-2 border-indigo-400">
+            <p>Cuddles!</p>
+        </div>
+
+        <div class="mr-2 mt-8 text-center">
+            <img src="https://images.unsplash.com/photo-1453369569379-52cd4fc989af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"
+                class="w-full mb-4 rounded border-solid border-2 border-indigo-400">
+            <p>Smiles!</p>
+        </div>
+
+        <div class="mr-2 text-center">
+            <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
+                class="w-full mb-4 rounded border-solid border-2 border-indigo-400">
+            <p>Games!</p>
+        </div>
+
+        <div class="mr-2 mt-8 text-center">
+            <img src="https://images.unsplash.com/photo-1505623776320-7edecf5f0771?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+                class="w-full mb-4 rounded border-solid border-2 border-indigo-400">
+            <p>Swims!</p>
+        </div>
+    </section>
+    <!-- END MAIN -->
+
+
+
+    <!-- START FOOTER -->
+    <footer class="p-10 bg-indigo-900 text-indigo-400 flex justify-between">
+        <div class="md:w-1/2">
+            <h3 class="text-lg mb-2">Join the Newsletter</h3>
+            <form class="flex">
+                <input type="email" class="w-full rounded-1 py-3 px-4 outline-none focus:bg-indigo-200">
+                <button class="bg-red-300 hover:bg-red-400 text-red-800 rounded-r px-4">Join</button>
+            </form>
+        </div>
+
+        <div class="flex items-center">
+            Copyright &copy; Doggos 2020 - Infinity
+        </div>
+    </footer>
+    <!-- END FOOTER -->
 </body>
 
 </html>
