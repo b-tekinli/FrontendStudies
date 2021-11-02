@@ -1,5 +1,5 @@
 .home {
-  background-image: url('img/banner5.jpg');
+  background-image: url(img/banner5.jpg);
 }
 
 .home .home-content {
@@ -18,7 +18,7 @@
   flex: 1;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   /* @Desktop */
   .home .home-content h2 {
     font-size: 5rem;
@@ -29,7 +29,7 @@
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1023px) {
   /* @Mobile */
   .home {
     text-align: center;
