@@ -15,12 +15,17 @@
 
 .about .about-content h2 {
   color: var(--title-text);
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 14px;
   margin-bottom: 1rem;
 }
 
 .about .about-content p {
-  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.about .about-content > *:first-child {
+  flex: 1;
 }
 
 @media (min-width: 1024px) {

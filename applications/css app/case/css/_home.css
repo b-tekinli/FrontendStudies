@@ -7,6 +7,7 @@
 }
 
 .home .home-content h2 {
+  color: var(--title-text);
   margin-bottom: 1.5rem;
 }
 

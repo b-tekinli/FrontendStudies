@@ -1,1 +1,8 @@
-@import "./_section1.css";
+@import "./_home.css";
+@import "./_about.css";
+@import "./_services.css";
+@import "./_pricing.css";
+@import "./_blog.css";
+@import "./_testimonials.css";
+@import "./_contact.css";
+@import "./_footer.css";
