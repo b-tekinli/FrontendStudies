@@ -1,0 +1,30 @@
+.container {
+  margin: 0 auto;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--gutter));
+  margin-right: calc(-1 * var(--gutter));
+}
+
+.row > * {
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+}

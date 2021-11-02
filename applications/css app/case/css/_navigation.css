@@ -1,0 +1,9 @@
+nav ul li a {
+  color: var(--text);
+  font-size: 2rem;
+  transition: var(--transition);
+}
+
+nav ul li:hover a {
+  color: var(--primary-hover);
+}

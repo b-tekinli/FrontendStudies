@@ -1,0 +1,11 @@
+:root {
+  --primary: #00a65c;
+  --primary-text: #ffffff;
+  --primary-hover: #44bf8d;
+  --bg-color-1: #EDECFD;
+  --gray: #efefef;
+  --text: #000000;
+  --transition: all ease 0.5s;
+  --font: "Roboto", sans-serif;
+  --gutter: 15px;
+}

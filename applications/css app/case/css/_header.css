@@ -1,0 +1,31 @@
+header .row {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: var(--primary);
+}
+
+@media (min-width: 1200px) {
+  /* @Desktop */
+  .logo {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  /* @Mobile */
+
+  header {
+    margin-bottom: calc(var(--gutter) * 2);
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  header .row > *:nth-child(2) {
+    display: none;
+  }
+}
