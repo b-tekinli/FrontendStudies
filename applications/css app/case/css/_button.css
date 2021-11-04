@@ -4,7 +4,7 @@
   padding-bottom: calc(var(--gutter) - 10px);
   padding-left: var(--gutter);
   padding-right: var(--gutter);
-  border-radius: 0.5rem;
+  border-radius: 30px;
   cursor: pointer;
   transition: var(--transition);
   border: 1px solid var(--gray);

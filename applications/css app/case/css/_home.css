@@ -4,6 +4,8 @@
 
 .home .home-content {
   align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .home .home-content h2 {
