@@ -25,9 +25,11 @@
   font-size: 4.5rem;
 }
 
-.banner > h4,
+.banner > h2,
+h4,
 p,
-i {
+i,
+li {
   padding: 10px 10px;
 }
 
