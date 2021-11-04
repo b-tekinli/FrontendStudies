@@ -50,6 +50,7 @@ i {
 }
 
 .card span i {
+  color: var(--primary);
   font-size: 25px;
 }
 
