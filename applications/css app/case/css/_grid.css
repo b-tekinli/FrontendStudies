@@ -28,3 +28,7 @@
   padding-left: var(--gutter);
   padding-right: var(--gutter);
 }
+
+.col {
+  padding: 3rem;
+}
