@@ -45,3 +45,7 @@ button {
 img {
   max-width: 100%;
 }
+
+i {
+  color: var(--primary);
+}

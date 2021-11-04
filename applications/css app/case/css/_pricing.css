@@ -1,0 +1,10 @@
+._pricing-content {
+  align-items: center;
+}
+
+.banner {
+}
+
+.active {
+  background: var(--title-text);
+}
