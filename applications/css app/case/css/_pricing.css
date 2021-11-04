@@ -1,10 +1,43 @@
-._pricing-content {
+.pricing-content {
   align-items: center;
+  text-align: center;
+}
+
+.pricing-content h2 {
+  color: var(--title-text);
+  font-size: 35px;
+  margin-bottom: 1rem;
+}
+
+.pricing-content p {
+  font-size: 17px;
+  margin-bottom: 4rem;
+  font-weight: 300;
 }
 
 .banner {
+  background-color: #f8f8f8;
+  border-radius: 15px;
+}
+
+.banner i {
+  color: var(--primary);
+  font-size: 4.5rem;
+}
+
+.banner > h4,
+p,
+i {
+  padding: 10px 10px;
 }
 
 .active {
   background: var(--title-text);
+  color: var(--primary-text);
+}
+
+.active h2,
+i {
+  color: var(--primary-text);
+  padding: 15px 30px;
 }

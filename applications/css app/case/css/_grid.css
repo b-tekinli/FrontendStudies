@@ -29,3 +29,6 @@
   padding-right: var(--gutter);
 }
 
+.justify-center {
+  justify-content: center;
+}
