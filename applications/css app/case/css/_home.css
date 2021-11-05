@@ -1,3 +1,10 @@
+.header {
+  position: fixed;
+  margin: 0 auto;
+  background-color: var(--primary-text);
+  width: 100%;
+}
+
 .home {
   background-image: url(img/banner5.jpg);
 }

@@ -1,5 +1,5 @@
 .button {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   padding-top: calc(var(--gutter) - 10px);
   padding-bottom: calc(var(--gutter) - 10px);
   padding-left: var(--gutter);
@@ -11,7 +11,7 @@
 }
 
 .button-large {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 .button-primary {
