@@ -3,6 +3,7 @@
   margin: 0 auto;
   background-color: var(--primary-text);
   width: 100%;
+  z-index: 3;
 }
 
 .home {
