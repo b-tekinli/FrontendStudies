@@ -33,7 +33,7 @@
   justify-content: center;
 }
 
-.featured {
-  padding-top: 50px;
-  padding-bottom: 50px;
+.btn {
+  position: relative;
+  left: 52px;
 }
