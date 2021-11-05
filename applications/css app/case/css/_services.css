@@ -54,20 +54,20 @@ i {
   font-size: 25px;
 }
 
-.card:hover {
+.card:hover  {
   background-color: var(--primary);
   transition: var(--transition);
   color: var(--primary-text);
 }
 
-.card p:hover {
+.card:hover p {
   color: var(--primary-hover);
 }
 
-.card h4:hover {
+.card:hover h4 {
   color: #ffffff;
 }
 
-.card i:hover {
+.card:hover i {
   color: var(--primary-hover);
 }

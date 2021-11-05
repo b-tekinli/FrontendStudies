@@ -38,8 +38,7 @@ li {
   color: var(--primary-text);
 }
 
-.active h2,
+.active > h2,
 i {
-  color: var(--primary-text);
-  padding: 15px 30px;
+  padding: 15px 10px;
 }
