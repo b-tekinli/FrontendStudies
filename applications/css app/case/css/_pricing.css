@@ -7,6 +7,7 @@
   color: var(--title-text);
   font-size: 35px;
   margin-bottom: 1rem;
+  padding: 10px 80px;
 }
 
 .pricing-content p {
@@ -17,15 +18,30 @@
 
 .banner {
   background-color: #f8f8f8;
-  border-radius: 15px;
+  border-radius: 12px;
+  padding: 40px 40px 45px;
+  margin-bottom: 3rem;
 }
 
 .banner i {
   color: var(--primary);
-  font-size: 4.5rem;
+  font-size: 5rem;
+  padding: var(--gutter);
 }
 
-.banner > h2,
+.banner h1 {
+  font-size: 4rem;
+}
+
+.banner ul > li {
+  font-size: 1.7rem;
+}
+
+.banner ul > li:last-child {
+  padding-bottom: 30px;
+}
+
+.banner > h1,
 h4,
 p,
 i,
@@ -38,7 +54,12 @@ li {
   color: var(--primary-text);
 }
 
-.active > h2,
-i {
-  padding: 15px 10px;
+.active h1 {
+  color: var(--primary-text);
+}
+
+.banner:hover {
+  box-shadow: 0 2px 29px rgb(0 0 0 / 15%);
+  z-index: 5;
+  cursor: pointer;
 }

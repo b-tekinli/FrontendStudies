@@ -37,3 +37,13 @@
   background-color: var(--primary-hover);
   color: var(--primary-text);
 }
+
+.button-register {
+  border: 2px solid var(--register);
+  color: var(--register);
+}
+
+.button-register:hover {
+  border: 2px solid var(--title-text);
+  color: var(--title-text);
+}

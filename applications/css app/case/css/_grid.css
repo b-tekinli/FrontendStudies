@@ -32,3 +32,8 @@
 .justify-center {
   justify-content: center;
 }
+
+.featured {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
