@@ -24,6 +24,13 @@
   margin-right: calc(-1 * var(--gutter));
 }
 
+.cols {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--gutter));
+  margin-right: calc(-1 * var(--gutter));
+}
+
 .row > * {
   padding-left: var(--gutter);
   padding-right: var(--gutter);
@@ -31,6 +38,10 @@
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .btn {

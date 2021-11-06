@@ -29,8 +29,7 @@
 .blog-card {
   background: #f4f4f4;
   border-radius: 15px;
-  padding: 20px 10px;
-  margin: calc(var(--gutter) / 2);
+  margin-left: var(--gutter);
   width: 30%;
 }
 
@@ -40,10 +39,29 @@
   color: var(--title-text);
 }
 
-.blog-card > h4,
-p,
-i {
-  padding: 10px 10px;
+.blog-card img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.blog-card i {
+  background-color: var(--p-primary-bg);
+  color: var(--p-primary-border);
+  border: 1px solid var(--p-primary-border);
+  border-radius: 10px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.blog-card .blog-text {
+  background-color: var(--p-secondary-bg);
+  color: var(--p-secondary-border);
+  border: 1px solid var(--p-secondary-border);
+  border-radius: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .blog-card:hover {
