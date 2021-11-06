@@ -27,7 +27,7 @@
   margin-bottom: 1.5rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   /* @Desktop */
   .about .about-content h2 {
     font-size: 5rem;
@@ -38,7 +38,7 @@
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1199px) {
   /* @Mobile */
   .about {
     text-align: center;

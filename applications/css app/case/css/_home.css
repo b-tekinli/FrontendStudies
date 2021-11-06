@@ -29,7 +29,7 @@
   flex: 1;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   /* @Desktop */
   .home .home-content h2 {
     font-size: 5rem;
@@ -40,7 +40,7 @@
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1199px) {
   /* @Mobile */
   .home {
     text-align: center;

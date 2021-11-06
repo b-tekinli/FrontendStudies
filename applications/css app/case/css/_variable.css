@@ -13,6 +13,7 @@
   --gray: #efefef;
   --text: #000000;
   --transition: all ease 0.5s;
+  --transition-in-out: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
   --font: "Roboto", sans-serif;
   --gutter: 15px;
 }

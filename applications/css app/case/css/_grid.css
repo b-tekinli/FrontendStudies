@@ -29,7 +29,7 @@
   padding-right: var(--gutter);
 }
 
-.cols {
+.row-1 {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--gutter));
