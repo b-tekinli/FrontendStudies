@@ -9,13 +9,21 @@
   padding-bottom: 50px;
 }
 
+.contact .contact-content img {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .contact .contact-content h2 {
   color: var(--title-text);
   margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .contact .contact-content p {
   margin-bottom: 1.5rem;
+  font-weight: 300;
+  text-align: center;
 }
 
 .contact-form {
@@ -34,6 +42,7 @@
 }
 
 .form-group {
+  margin-top: 1rem;
   margin-bottom: 2.5rem;
   width: 100%;
 }
