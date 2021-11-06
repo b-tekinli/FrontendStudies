@@ -48,3 +48,11 @@ footer {
 .follow .social-media a {
   padding: 10px 10px;
 }
+
+.copy p {
+  color: var(--primary-text);
+  font-size: 17px;
+  position: relative;
+  top: 50px;
+  left: 270px;
+}
