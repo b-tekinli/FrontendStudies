@@ -1,0 +1,42 @@
+footer {
+  background-color: var(--title-text);
+}
+
+.footer-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-logo p {
+  color: var(--primary-text);
+  font-size: 15px;
+  margin-top: 1rem;
+}
+
+.subtitle .quick-links h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.subtitle .quick-links span {
+  font-size: 12px;
+}
+
+.subtitle .quick-links span:first-child {
+  margin-top: 15px;
+}
+
+.quick {
+  color: var(--primary-text);
+}
+
+.quick-h3 {
+  color: var(--primary-text);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.footer-contact h3 {
+  font-size: 25px;
+  font-weight: 600;
+}

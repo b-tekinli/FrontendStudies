@@ -48,3 +48,7 @@
   position: relative;
   left: 52px;
 }
+
+.color-black {
+  color: var(--title-text);
+}
