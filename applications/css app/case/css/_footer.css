@@ -16,6 +16,11 @@ footer {
   font-size: 15px;
 }
 
+.subtitle {
+  position: relative;
+  left: 5px;
+}
+
 .subtitle .quick-links h3 {
   font-size: 25px;
   font-weight: 500;
