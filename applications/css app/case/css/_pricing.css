@@ -66,6 +66,7 @@ li {
 @media (min-width: 1024px) {
   /* @Desktop */
   .pricing .pricing-content h2 {
+    margin-top: 50px;
     font-size: 5rem;
   }
 
@@ -78,6 +79,7 @@ li {
   /* @Mobile */
 
   .pricing .pricing-content h2 {
+    margin-top: 50px;
     font-size: 3rem;
   }
 
