@@ -67,3 +67,47 @@
   transition: var(--transition);
   box-shadow: 0 2px 30px rgb(0 0 0 / 15%);
 }
+
+@media (min-width: 1024px) {
+  /* @Desktop */
+  .blog .blog-content h2 {
+    font-size: 5rem;
+  }
+
+  .blog .blog-content p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  /* @Mobile */
+  .blog {
+    text-align: center;
+  }
+
+  .blog .blog-content h2 {
+    font-size: 2rem;
+  }
+
+  .blog .blog-content p {
+    font-size: 1.5rem;
+  }
+
+  .blog .blog-content > * {
+    width: 100%;
+  }
+
+  .blog .blog-content > *:first-child {
+    margin-bottom: var(--gutter);
+  }
+
+  .blog-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    margin-left: 2.5rem;
+  }
+}

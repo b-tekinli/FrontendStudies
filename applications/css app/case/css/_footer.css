@@ -61,3 +61,43 @@ footer {
   top: 50px;
   left: 270px;
 }
+
+@media (min-width: 1024px) {
+  /* @Desktop */
+
+  .footer .footer-content p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  /* @Mobile */
+  .footer {
+    text-align: center;
+  }
+
+  .footer .footer-content h2 {
+    font-size: 2rem;
+  }
+
+  .footer .footer-content p {
+    font-size: 1.5rem;
+  }
+
+  .footer .footer-content > * {
+    width: 100%;
+  }
+
+  .footer .footer-content > *:first-child {
+    margin-bottom: calc(var(--gutter) * 2);
+  }
+
+  .subtitle > div {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+
+  .copy {
+    transform: translate(-115%, 10%);
+  }
+}

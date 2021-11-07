@@ -29,7 +29,7 @@
   flex: 1;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   /* @Desktop */
   .home .home-content h2 {
     font-size: 5rem;
@@ -40,7 +40,7 @@
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1023px) {
   /* @Mobile */
   .home {
     text-align: center;
@@ -60,5 +60,10 @@
 
   .home .home-content > *:first-child {
     margin-bottom: calc(var(--gutter) * 2);
+  }
+
+  .home .button {
+    position: relative;
+    left: calc(var(--gutter) * 6);
   }
 }

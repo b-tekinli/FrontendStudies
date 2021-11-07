@@ -62,3 +62,48 @@ li {
   box-shadow: 0 2px 29px rgb(0 0 0 / 15%);
   cursor: pointer;
 }
+
+@media (min-width: 1024px) {
+  /* @Desktop */
+  .pricing .pricing-content h2 {
+    font-size: 5rem;
+  }
+
+  .pricing .pricing-content p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  /* @Mobile */
+
+  .pricing .pricing-content h2 {
+    font-size: 3rem;
+  }
+
+  .pricing .pricing-content p {
+    font-size: 1.7rem;
+  }
+
+  .pricing .pricing-content > * {
+    width: 100%;
+  }
+
+  .pricing .pricing-content > *:first-child {
+    margin-bottom: calc(var(--gutter) * 2);
+  }
+
+  .banner {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    margin-left: 2.5rem;
+  }
+
+  .banner .btn {
+    position: relative;
+    left: 150px;
+  }
+}

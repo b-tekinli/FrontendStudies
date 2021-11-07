@@ -48,7 +48,7 @@
   color: var(--title-text);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   /* @Desktop */
   .testimonials .testimonials-content h2 {
     font-size: 5rem;
@@ -59,7 +59,7 @@
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1023px) {
   /* @Mobile */
   .testimonials {
     text-align: center;
@@ -69,7 +69,7 @@
     font-size: 2rem;
   }
 
-  .testimonials .testimonials-content p {
+  .testimonials .testimonials-content blockquote {
     font-size: 1.5rem;
   }
 
@@ -79,5 +79,10 @@
 
   .testimonials .testimonials-content > *:first-child {
     margin-bottom: calc(var(--gutter) * 2);
+  }
+
+  .testimonials .col {
+    position: relative;
+    left: 85px;
   }
 }

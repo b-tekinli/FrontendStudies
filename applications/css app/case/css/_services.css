@@ -54,7 +54,7 @@ i {
   font-size: 25px;
 }
 
-.card:hover  {
+.card:hover {
   background-color: var(--primary);
   transition: var(--transition);
   color: var(--primary-text);
@@ -70,4 +70,32 @@ i {
 
 .card:hover i {
   color: var(--primary-hover);
+}
+
+@media (max-width: 1199px) {
+  /* @Mobile */
+  .services {
+    text-align: center;
+  }
+
+  .services .services-content h2 {
+    font-size: 2rem;
+  }
+
+  .services .services-content p {
+    font-size: 1.5rem;
+  }
+
+  .services .services-content > * {
+    width: 100%;
+  }
+
+  .services .services-content > *:first-child {
+    margin-bottom: calc(var(--gutter) * 2);
+  }
+
+  .services .card {
+    width: 100%;
+    margin-left: 3.4rem;
+  }
 }

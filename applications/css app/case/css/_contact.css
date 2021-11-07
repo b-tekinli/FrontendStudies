@@ -64,7 +64,7 @@
   width: 50%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   /* @Desktop */
   .contact .contact-content h2 {
     font-size: 5rem;
@@ -75,11 +75,8 @@
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1023px) {
   /* @Mobile */
-  .contact {
-    text-align: center;
-  }
 
   .contact .contact-content h2 {
     font-size: 2rem;
