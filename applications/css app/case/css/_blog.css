@@ -68,7 +68,7 @@
   box-shadow: 0 2px 30px rgb(0 0 0 / 15%);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   /* @Desktop */
   .blog .blog-content h2 {
     font-size: 5rem;
@@ -79,7 +79,7 @@
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1199px) {
   /* @Mobile */
   .blog {
     text-align: center;

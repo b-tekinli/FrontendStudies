@@ -7,14 +7,14 @@ header .row {
   color: var(--primary);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   /* @Desktop */
   .logo {
     font-size: 3rem;
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1199px) {
   /* @Mobile */
 
   header {
