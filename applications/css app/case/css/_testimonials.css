@@ -32,10 +32,12 @@
 }
 
 .testimonials .testimonials-content img {
-  width: 50%;
+  width: 100%;
 }
 
 .testimonials .col {
+  margin-top: 1.5rem;
+  padding: 3px 3px;
   background-color: #dbdfeb;
   border-left: 5px solid var(--title-text);
 }
