@@ -62,9 +62,4 @@
   .home .home-content > *:first-child {
     margin-bottom: calc(var(--gutter) * 2);
   }
-
-  .home .button {
-    position: relative;
-    left: calc(var(--gutter) * 6);
-  }
 }

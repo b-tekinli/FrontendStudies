@@ -29,13 +29,6 @@
   padding-right: var(--gutter);
 }
 
-.row-1 {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: calc(-1 * var(--gutter));
-  margin-right: calc(-1 * var(--gutter));
-}
-
 .justify-center {
   justify-content: center;
 }
@@ -45,8 +38,9 @@
 }
 
 .btn {
-  position: relative;
-  left: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .color-black {

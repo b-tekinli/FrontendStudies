@@ -59,9 +59,4 @@
   .about .about-content > *:first-child {
     margin-bottom: calc(var(--gutter) * 2);
   }
-
-  .about .button {
-    position: relative;
-    left: calc(var(--gutter) * 12);
-  }
 }

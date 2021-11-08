@@ -7,14 +7,14 @@ header .row {
   color: var(--primary);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   /* @Desktop */
   .logo {
     font-size: 3rem;
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1023px) {
   /* @Mobile */
 
   header {
@@ -26,6 +26,10 @@ header .row {
   }
 
   header .row > *:nth-child(2) {
+    display: none;
+  }
+
+  .btn-contact {
     display: none;
   }
 }
