@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="text-xs bg-red-500 text-white text-center xl:tracking-widest py-2 xl:text-xl">
+            <h1>
+                100 TL VE ÜZERİ ALIŞVERİŞLERİNİZDE KARGO ÜCRETSİZ
+            </h1>
+        </div>
+        <div class="border-b py-2">
+            <div class="container mx-auto px-64">
+                <div class="flex items-center flex-wrap">
+                    <div class="mr-2">
+                        <button class="bg-red-500 text-white px-3 rounded text-sm">Duyurular</button>
+                    </div>
+                    <div class="flex-1 xl:w-auto">
+                        <p class="text-xs xl:text-lg">PES TURNUVASI BAŞLIYOR İLK EL...</p>
+                    </div>
+                    <div class="hidden xl:block flex-1">
+                        <nav>
+                            <ul class="flex flex-wrap items-center justify-end">
+                                <li>
+                                    <a href="#" class="transition duration-500 ease-in-out hover:text-red-500 block px-3 border-l border-r text-lg">
+                                        <i class="fa-solid fa-pen-to-square"></i>
+                                        <span>Blog</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="transition duration-500 ease-in-out hover:text-red-500 block px-3 border-r text-lg">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <span>Destek</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="transition duration-500 ease-in-out hover:text-red-500 block px-3 border-r text-lg">
+                                        <i class="fa-solid fa-truck-fast"></i>
+                                        <span>Kargo Takibi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="transition duration-500 ease-in-out hover:text-red-500 block px-3 border-r text-lg">
+                                        <i class="fa-solid fa-star"></i>
+                                        <span>Favorilerim</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="transition duration-500 ease-in-out hover:text-red-500 block px-3 border-r text-lg">
+                                        <i class="fa-solid fa-lock"></i>
+                                        <span>Üye Girişi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="transition duration-500 ease-in-out block px-3 border-r text-lg">
+                                        <i class="fa-solid fa-user-plus"></i>
+                                        <span>Üye Ol</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-64 xl:py-3">
+            <div class="fixed bottom-0 left-0 w-full bg-white flex flex-wrap justify-between items-center p-3 xl:py-0 xl:static xl:justify-start" mobile-menu>
+                <div class="xl:hidden">
+                    <button class="text-2xl" menu-button>
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+                <div>
+                    <a href="/index.html" class="block w-12 xl:w-auto">
+                        <img src="https://www.aralgame.com/catalog/view/theme/aral_theme/assets/images/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="xl:hidden">
+                    <button class="text-2xl" search-button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <div class="xl:flex-1">
+                    <div class="flex items-center justify-between xl:justify-end">
+                        <div class="hidden xl:block" search>
+                            <div class="fixed top-0 left-0 z-10 bg-white w-full h-full flex justify-center flex-col xl:static xl:block px-5 xl:px-0 xl:w-96 xl:mr-5">
+                                <div class="border flex items-center px-3 py-2">
+                                    <div class="flex-1 xl:mr-3">
+                                        <input type="text" placeholder="Outlet Fırsatları" class="focus:outline-none w-full">
+                                    </div>
+                                    <div>
+                                        <button class="text-red-500"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <button class="transition duration-500 ease-in-out flex items-center text-2xl hover:bg-red-xl:text-sm xl:text-white xl:p-2 xl:bg-red-500 xl:px-3 xl:py-2 xl:rounded">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="ml-2 hidden xl:block">Sepetim (0)</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="fixed top-0 w-full -left-full bg-white h-full z-10 xl:static xl:bg-gray-600" menu>
+            <div class="container mx-auto px-64 h-full xl:h-auto">
+                <ul class="text-center h-full flex flex-col justify-center xl:text-left xl:justify-start xl:flex-row xl:flex-wrap xl:items-center">
+                    <li>
+                        <a href="#" class="xl:bg-gray-400 block xl:text-white py-3 px-5">
+                            <i class="fa-solid fa-house"></i>
+                            <span class="xl:hidden">ANASAYFA</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block hover:bg-gray-800 transition duration-500 ease-in-out xl:text-white py-3 px-5">
+                            PLAYSTATION 5
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block hover:bg-gray-800 transition duration-500 ease-in-out xl:text-white py-3 px-5">
+                            PLAYSTATION 4
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block hover:bg-gray-800 transition duration-500 ease-in-out xl:text-white py-3 px-5">
+                            XBOX ONE
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block hover:bg-gray-800 transition duration-500 ease-in-out xl:text-white py-3 px-5">
+                            PC
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block hover:bg-gray-800 transition duration-500 ease-in-out xl:text-white py-3 px-5">
+                            COLLECTORS EDITION
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="w-full">
+            <picture>
+                <img src="img/banner.jpg" alt="Banner">
+            </picture>
+        </section>
+        <section class="mt-5">
+            <div class="container mx-auto px-5">
+                <div class="flex flex-wrap -mx-5">
+                    <div class="w-full px-5 mb-5 xl:mb-0 xl:flex-1">
+                        <div class="flex flex-wrap -mx-5">
+                            <div class="w-full px-5 mb-5 xl:w-1/2">
+                                <img src="https://via.placeholder.com/500x500" alt="Banner" class="max-w-full">
+                            </div>
+                            <div class="xl:w-1/2 px-5 mb-5">
+                                <img src="https://via.placeholder.com/500x500" alt="Banner" class="max-w-full">
+                            </div>
+                            <div class="w-full px-5 mb-5 xl:mb-0 xl:w-1/2">
+                                <img src="https://via.placeholder.com/500x500" alt="Banner" class="max-w-full">
+                            </div>
+                            <div class="w-full px-5 xl:w-1/2">
+                                <img src="https://via.placeholder.com/500x500" alt="Banner" class="max-w-full">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-5">
+                        <picture>
+                            <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/500x935">
+                            <source media="(min-width: 768px)" srcset="https://via.placeholder.com/768x500">
+                            <img src="https://via.placeholder.com/500x500" alt="Banner" class="max-w-full">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script defer src="app.js"></script>
+</body>
+</html>
