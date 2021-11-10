@@ -3,11 +3,6 @@ footer {
   background-color: var(--title-text);
 }
 
-.subtitle {
-  position: relative;
-  right: 10%;
-}
-
 .footer-content {
   padding: 100px 100px;
 }
@@ -43,6 +38,8 @@ footer {
 
 .quick-links {
   font-size: 28px;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -50,6 +47,12 @@ footer {
   color: var(--primary-text);
   font-size: 28px;
   font-weight: bold;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-contact h3 {
@@ -106,7 +109,9 @@ footer {
   }
 
   .footer-contact {
-    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .subtitle > div {
