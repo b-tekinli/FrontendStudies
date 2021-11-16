@@ -33,7 +33,6 @@ value = parseInt("3");
 
 
 
-
 const a = Number("41") + 34;
 console.log(a);
 console.log(typeof a);
