@@ -37,6 +37,4 @@ element = document.querySelectorAll(".list-group-item"); // Node List
 element.forEach(function (el) {
     console.log(el);
 });
-
-
 // console.log(element);
