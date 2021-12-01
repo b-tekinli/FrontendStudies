@@ -41,6 +41,7 @@ value = cardrow.parentElement.parentElement;
 // Element Kardeşleri
 value = todo;
 value = todo.previousElementSibling;
+value = todo.nextElementSibling;
 value = todo.nextElementSibling.nextElementSibling;
 
 value = todo.previousElementSibling.previousElementSibling;
