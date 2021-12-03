@@ -17,9 +17,7 @@ filterInput.addEventListener("focus", function(e){
     console.log(e.target.placeholder);
     console.log(e.target.classname);
 
-
     console.log("Naber");
-
 });
 
 
