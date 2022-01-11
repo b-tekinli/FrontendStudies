@@ -25,8 +25,19 @@ var tivitler = [{
 var email = prompt("email?")
 var sifre = prompt("sifre?")
 
+function kullaniciVarmi(email, sifre) {
+    console.log(email);
+    console.log(sifre);
+    for(i=0; i<kullanicilar.length; i++) {
+        if(kullanicilar[i].email == email && kullanicilar[i].sifre == sifre) {
+            return true;
+        }
+    }
+    return false;
+}
+
 function giris() {
-    if ((email == kullanicilar[0].email && sifre == kullanicilar[0].sifre) || (email == kullanicilar[1].email && sifre == kullanicilar[1].sifre)) {
+    if (kullaniciVarmi(email, sifre)) {
         console.log(tivitler);
     } else {
         console.log("Kullanıcı adı veya şifresi hatalı!");
