@@ -1,0 +1,33 @@
+.title-text {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.title-text h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.title-text p {
+  margin: 20px 0;
+  font-weight: 400;
+}
+
+.features {
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.f-icon {
+  margin: 70px 0 15px 0;
+}
+
+.f-title h3 {
+  font-size: 1.7em;
+  font-weight: 900;
+  padding: 15px 0;
+}
+
+.f-text p {
+  font-weight: 300;
+}

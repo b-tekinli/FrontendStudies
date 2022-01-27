@@ -1,0 +1,66 @@
+#footer {
+  background-color: #000000;
+  color: #ffffff;
+  height: 200px;
+}
+
+.font {
+  font-weight: 300;
+  font-size: 12px;
+  padding-right: 15px;
+  line-height: 1em;
+}
+
+.wrapper {
+  margin: 0 15%;
+}
+
+.landify-logo {
+  margin-right: 80px;
+  margin-bottom: 10px;
+  padding-right: 35px;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.col-1 {
+  margin-bottom: 10px;
+}
+
+.col-1 p {
+  padding-left: 15px;
+}
+
+.col-2 p {
+  padding-left: 15px;
+}
+
+.col-2 p {
+  margin-right: 5px;
+}
+
+.copyright {
+  padding-top: 25px;
+  color: #d1d5db;
+  font-size: 10px;
+  margin-right: 270px;
+}
+
+.copyright p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1em;
+}
+
+.app {
+  margin-top: 20px;
+}
+
+.app p {
+  color: #d1d5db;
+  padding-bottom: 15px;
+}
+
+.app2 {
+  margin-top: 20px;
+}

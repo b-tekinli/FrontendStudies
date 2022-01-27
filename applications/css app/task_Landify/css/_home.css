@@ -1,0 +1,50 @@
+main {
+  margin-bottom: 170px;
+}
+
+.main-text {
+  margin: 15% 15%;
+}
+
+.main-text h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+.main-text p {
+  line-height: 1.2em;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-weight: 380;
+}
+
+.btn {
+  background-color: var(--purple-color);
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 16px 16px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: var(--purple-hover-color);
+}
+
+.img-mobile {
+  margin-top: 7%;
+  margin-left: -10%;
+}
+
+.icon {
+  margin-left: 45px;
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+.icon a {
+  color: var(--purple-color);
+  padding-top: 3px;
+  padding-left: 10px;
+}
