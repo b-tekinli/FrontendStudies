@@ -20,6 +20,7 @@ nav ul li a {
 
 .app-badges {
   margin-left: 320px;
+  padding-top: 10px;
 }
 
 .logo {
@@ -27,8 +28,52 @@ nav ul li a {
   height: 30px;
 }
 
-/* mobile */
-.mobile-navbar {
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+  .bg {
+    background-image: url(/img/tablet-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .logo {
+    padding-left: 150px;
+  }
+
+  .app-badges {
+    padding-right: 120px;
+  }
+
+  .hamburger {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .tablet-flex {
+    display: flex;
+  }
+
+  
+}
+
+/* MOBILE */
+/* .mobile-navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -48,4 +93,4 @@ nav ul li a {
 .mobile-navbar a:hover {
   background: #eff1f1;
   border-radius: 50%;
-}
+} */

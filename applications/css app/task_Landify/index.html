@@ -11,7 +11,7 @@
 
 <body class="bg">
     <!-- MOBILE NAVBAR -->
-    <nav class="mobile-navbar desktop-hidden">
+    <nav class="mobile-navbar desktop-hidden tablet-hidden">
         <ul class="row align-center justify-between">
             <li class="col">
                 <a href="#">Features</a>
@@ -29,6 +29,14 @@
     </nav>
 
 
+    <!-- TABLET -->
+    <nav>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+    </nav>
+
+
     <div class="container">
         <div class="row justify-center">
             <div class="col mobile-hidden">
@@ -37,7 +45,7 @@
                         <img class="logo" src="/img/logo.png" alt="Landify">
 
                         <nav>
-                            <ul class="flex">
+                            <ul class="flex tablet-hidden">
                                 <li class="col">
                                     <a href="/">Features</a></li>
                                 <li class="col">
@@ -51,8 +59,12 @@
                     </div>
 
                     <a class="app-badges" href="https://play.google.com/store/apps" target="_blank">
-                        <img src="img/_App badges.png" alt="google logo">
+                        <div class="tablet-flex">
+                            <img class="mobile-hidden" src="img/_App badges.png" alt="google logo">
+                            <img class="desktop-hidden hamburger" src="img/hamburgermenu.png">
+                        </div>
                     </a>
+
                 </header>
             </div>
         </div>
