@@ -42,36 +42,6 @@ nav ul li a {
   display: none;
 }
 
-/* TABLET */
-
-@media screen and (min-width: 768px) {
-  .bg {
-    background-image: url(/img/tablet-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .logo {
-    padding-left: 150px;
-  }
-
-  .app-badges {
-    padding-right: 120px;
-  }
-
-  .hamburger {
-    padding-right: 5px;
-    padding-left: 5px;
-  }
-
-  .tablet-flex {
-    display: flex;
-  }
-
-  
-}
-
 /* MOBILE */
 /* .mobile-navbar {
   position: fixed;

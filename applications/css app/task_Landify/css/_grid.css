@@ -69,7 +69,7 @@
 }
 
 /* TABLET */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .tablet-hidden {
     display: none;
   }
@@ -93,6 +93,52 @@
 
   .tablet-row {
     margin: 0;
+  }
+
+  .bg {
+    background-image: url(/img/tablet-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .logo {
+    padding-left: 200px;
+  }
+
+  .app-b {
+    padding-right: 180px;
+  }
+
+  .hamburger {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .tablet-flex {
+    display: flex;
+  }
+
+  .tablet-text {
+    width: 680px;
+    padding-right: 150px;
+  }
+
+  .logos {
+    width: 100%;
+  }
+
+  .tablet-h2 {
+    width: 700px;
+  }
+
+  .tablet-p {
+    font-size: 18px;
+    width: 700px;
+  }
+
+  .features {
+    
   }
 }
 
