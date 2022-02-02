@@ -1,0 +1,46 @@
+.features {
+  margin-top: 123px;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.parag {
+  font-weight: 400;
+  max-width: 700px;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 10px auto;
+}
+
+.feat-list {
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+
+.features-item {
+  flex-basis: 30%;
+  margin-bottom: 50px;
+}
+
+.features-img {
+  display: block;
+  margin: 15px auto;
+}
+
+.features-item h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 15px;
+  margin: 25px 0;
+}
+
+.list-content {
+  font-size: 16px;
+  line-height: 25px;
+}

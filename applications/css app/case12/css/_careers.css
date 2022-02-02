@@ -1,0 +1,96 @@
+.careers {
+  background-color: #D5FAFC;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  height: 950px;
+}
+
+.career-container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.quote {
+  position: absolute;
+  padding-left: 100px;
+}
+
+.careers-title {
+  position: relative;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  margin-top: 60px;
+  padding-left: 200px;
+}
+
+.c-p {
+  display: block;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 8px 0 70px 200px;
+}
+
+.testimonial {
+  font-size: 14px;
+  line-height: 24px;
+  color: #6b7280;
+  margin-left: 32px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px -2px rgba(17, 24, 39, 0.1),
+    0px 2px 4px -2px rgba(17, 24, 39, 0.06);
+}
+
+.card-img {
+  display: block;
+  margin: 0 145px 32px 0;
+}
+
+.c-hubspot {
+  width: 384px;
+  margin-left: 40%;
+  padding: 30px 25px;
+}
+
+.c-airbnb {
+  position: relative;
+  margin-left: -6%;
+  margin-top: 120px;
+  width: 488px;
+  padding: 30px 25px;
+}
+
+.c-strapi {
+  position: absolute;
+  margin-left: -2%;
+  margin-top: 40px;
+  width: 384px;
+  padding: 30px 25px;
+}
+
+.h-font {
+  margin: 0 0 24px 32px;
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 288px;
+}
+
+.a-font {
+  margin: 0 0 24px 32px;
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 392px;
+}
+
+.s-font {
+  margin: 0 0 24px 32px;
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 288px;
+}

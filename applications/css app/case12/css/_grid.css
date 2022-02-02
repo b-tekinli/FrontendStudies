@@ -1,0 +1,379 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  .desktop-hidden {
+    display: none;
+  }
+
+  .col {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .container-footer {
+    max-width: 950px;
+  }
+}
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+  header {
+    background: url(../img/tablet-bg.png);
+  }
+
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .col {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .tablet-hidden {
+    display: none;
+  }
+
+  .logo {
+    padding-left: 15px;
+  }
+
+  .hamburger {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .tablet-text {
+    width: 680px;
+    padding-right: 150px;
+  }
+
+  .home {
+    display: block;
+  }
+
+  .main-text h1 {
+    width: 100%;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .phone {
+    margin-top: 90px;
+    margin-left: 150px;
+  }
+
+  .hr {
+    max-width: 700px;
+  }
+
+  #logos {
+    margin-left: -20%;
+  }
+
+  .logos {
+    width: 80%;
+    margin-left: 75px;
+  }
+
+  .logos > div {
+    padding-top: 20px;
+  }
+
+  .features-container {
+    max-width: 700px;
+    flex-wrap: wrap;
+  }
+
+  .features-item {
+    min-width: 50%;
+  }
+
+  .careers-container {
+    display: block;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .c-p {
+    display: block;
+    text-align: center;
+    margin-left: -50% !important;
+  }
+
+  .careers {
+    background-color: #d5fafc;
+    min-height: 1165px;
+  }
+
+  .c-title {
+    margin-top: -9%;
+    margin-left: -22%;
+    min-width: 600px;
+  }
+
+  .careers-title {
+    letter-spacing: -0.06em;
+    min-width: 170%;
+  }
+
+  .quote {
+    margin-top: -60px;
+    margin-left: -70px;
+  }
+
+  .c-airbnb {
+    padding: 32px;
+    margin-top: 50%;
+    margin-left: -98% !important;
+    min-width: 688px;
+    height: 284px;
+  }
+
+  .a-font {
+    min-width: 592px;
+  }
+
+  .c-hubspot {
+    padding: 32px;
+    margin-top: 48%;
+    margin-left: 5% !important;
+    min-width: 690px;
+    height: 270px;
+  }
+
+  .h-font {
+    min-width: 592px;
+  }
+
+  .c-strapi {
+    padding: 32px;
+    margin-top: 42% !important;
+    margin-left: -88% !important;
+    min-width: 690px;
+    height: 230px;
+  }
+
+  .s-font {
+    min-width: 592px;
+  }
+
+  .footer-container {
+    padding: 0 50px;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 376px) {
+  .mobile-hidden {
+    display: none;
+  }
+
+  .container {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  header {
+    background: url(../img/mobile-bg.png);
+  }
+
+  .col {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mobile-row {
+    margin: 0;
+  }
+
+  .main-text {
+    margin-top: -90px !important;
+  }
+
+  .main-text h1 {
+    font-size: 40px;
+    line-height: 45px;
+    min-width: 335px;
+    letter-spacing: -0.05em;
+  }
+
+  .main-text p {
+    min-width: 335px;
+    font-size: 19px;
+  }
+
+  .btn {
+    margin-left: 17px;
+  }
+
+  .icon {
+    margin-left: 10px;
+  }
+
+  .phone {
+    margin-left: -18px;
+  }
+
+  .logos > col {
+    margin-left: 50px;
+  }
+
+  .logos {
+    width: 77%;
+  }
+
+  .hr {
+    margin-right: -5% !important;
+    max-width: 310px;
+  }
+
+  .parag {
+    font-weight: normal;
+  }
+
+  .features-item {
+    min-width: 100%;
+  }
+
+  .careers {
+    height: 1420px !important;
+  }
+
+  .careers-container {
+    display: block;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .c-title {
+    margin-top: -10%;
+    margin-left: -30%;
+  }
+
+  .careers-title {
+    letter-spacing: -0.070em;
+    font-size: 25px !important;
+  }
+
+  .c-p {
+    display: block;
+    text-align: center;
+    margin-left: -50% !important;
+  }
+
+  .card {
+    max-width: 65% !important;
+  }
+
+  .c-airbnb {
+    margin-top: 30% !important;
+    margin-left: -118% !important;
+    min-width: 150px;
+    height: 360px;
+  }
+
+  .a-font {
+    min-width: 20px !important;
+  }
+
+  .c-hubspot {
+    margin-top: 74%;
+    margin-right: -15px;
+    min-width: 290px !important;
+    height: 400px;
+  }
+
+  .h-font {
+    min-width: 10% !important;
+    letter-spacing: -0.050em;
+  }
+
+  .c-strapi {
+    margin-top: 125% !important;
+    margin-left: -153% !important;
+    min-width: 310px !important;
+    height: 275px;
+  }
+
+  .s-font {
+    min-width: 240px;
+  }
+
+  .footer-container {
+    padding: 0 10px;
+    height: 400px;
+    display: block;
+  }
+
+  .f-item1 {
+    padding-right: 20px;
+  }
+
+  .f-list {
+    flex-wrap: wrap;
+  }
+
+  .copyright {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
