@@ -82,3 +82,80 @@ const menu = [
   },
 ];
 
+// Menü ve buton elemanlarını ilgili değişkenlere atadık.
+let sectionCenter = document.querySelector(".section-center");
+let buttonContainer = document.querySelector(".btn-container");
+
+// Id ve desc kısmına yazması için buton fonksiyonu oluşturduk.
+function createButton(buttonName) {
+  let btn = `<button class="btn btn-outline-dark btn-item" id="${buttonName}">${buttonName}</button>`;
+  return btn;
+}
+
+// menüde tanımlı tüm nesne propertylerine tek tek yemek ekliyoruz.
+function foodMaker(name) {
+  let item = `<div class="menu-items col-lg-6 col-sm-12">
+  <img src="${name.img}" alt="${name.title}" class="photo">
+  <div class="menu-info">
+    <div class="menu-title">
+      <h4>${name.title}</h4>
+      <h4 class="price">${name.price}</h4>
+    </div>
+    <div class="menu-text">
+      ${name.desc}
+    </div>
+  </div>
+</div>`;
+  return item;
+}
+
+// menünün içinde 9 adet yemek var. foreach ile tek tek ekliyoruz.
+function addAllFoods() {
+  sectionCenter.innerHTML = "";
+  menu.forEach((element) => {
+    sectionCenter.innerHTML += " " + foodMaker(element);
+  });
+}
+
+function addFoodsKorea() {
+  sectionCenter.innerHTML = "";
+  const koreaMenu = menu.filter((x) => x.category == "Korea");
+  koreaMenu.forEach((element) => {
+    sectionCenter.innerHTML += " " + foodMaker(element);
+  });
+}
+
+function addFoodsJapan() {
+  sectionCenter.innerHTML = "";
+  const japanMenu = menu.filter((x) => x.category == "Japan");
+  japanMenu.forEach((element) => {
+    sectionCenter.innerHTML += " " + foodMaker(element);
+  });
+}
+
+function addFoodsChina() {
+  sectionCenter.innerHTML = "";
+  const chinaMenu = menu.filter((x) => x.category == "China");
+  chinaMenu.forEach((element) => {
+    sectionCenter.innerHTML += " " + foodMaker(element);
+  });
+}
+
+// btnContainer içinde createButton fonksiyonunu çalıştırıp eklemesi için addButton fonksiyonunu yazdık.
+function addButton() {
+  buttonContainer.innerHTML =
+    createButton("All") +
+    " " +
+    createButton("Korea") +
+    " " +
+    createButton("Japan") +
+    " " +
+    createButton("China");
+  document.getElementById("All").addEventListener("click", addAllFoods);
+  document.getElementById("Korea").addEventListener("click", addFoodsKorea);
+  document.getElementById("Japan").addEventListener("click", addFoodsJapan);
+  document.getElementById("China").addEventListener("click", addFoodsChina);
+}
+
+window.addEventListener("load", addButton);
+window.addEventListener("load", addAllFoods);
