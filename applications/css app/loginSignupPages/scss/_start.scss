@@ -1,0 +1,52 @@
+.start--container {
+    background-color: $primary-text-color;
+    border-radius: 8px;
+    padding: 50px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.start-box {
+    padding: 60px;
+    h2 {
+        color: $primary-bg-color;
+    }
+    p {
+        margin: 25px 0;
+        color: $secondary-text-color;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        .start-button {
+            background-color: $secondary-bg-color;
+            color: $primary-bg-color;
+            &:hover {
+                background-color: $primary-bg-color;
+                color: $primary-text-color;
+
+                a {
+                    color: $primary-text-color;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: $primary-bg-color;
+            }
+        }
+    }
+    .link {
+        margin: 25px;
+        a {
+            color: $secondary-text-color;
+            text-decoration: none;
+            &:hover {
+                color: $primary-bg-color;
+                text-decoration: underline;
+                transition: opacity 0.4s ease-in;
+            }
+        }
+    }
+}

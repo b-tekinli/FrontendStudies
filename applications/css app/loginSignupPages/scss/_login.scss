@@ -1,0 +1,27 @@
+form {
+    .form-group {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        text-align: left;
+
+        input {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+    }
+
+    button {
+        background-color: $secondary-bg-color;
+        color: $primary-bg-color;
+        font-size: 14px;
+        margin-top: 20px;
+        &:hover {
+            background-color: $primary-bg-color;
+            color: $primary-text-color;
+            opacity: 0.7;
+        }
+    }
+}
